@@ -43,11 +43,12 @@ jobs:
     needs: build
     if: github.ref == 'refs/heads/main'
     steps:
+      - uses: actions/checkout@v3
       - name: Load saved build output
         uses: actions/download-artifact@v1
         with:
           name: built-output
-          path: ./dist
+          path: ./dist    
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:

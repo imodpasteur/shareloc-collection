@@ -43,12 +43,13 @@ def generate_potree(rdf, dataset_dir, file_patterns, extension=".potree.zip", de
                 print("Converting " + file_path + "...")
                 convert_potree(file_path, True)
                 
-                print("Uploading " + file_path + " to s3...")
-                s3_client.upload_file(file_path.replace(".smlm", ".potree.zip"), S3_BUCKET, object_name)
+                potree_file_path = file_path.replace(".smlm", ".potree.zip")
+                print("Uploading " + potree_file_path + " to s3...")
+                s3_client.upload_file(potree_file_path, S3_BUCKET, object_name)
 
                 # Remove the folder
                 shutil.rmtree(os.path.join(dataset_dir, rdf["doi"])) 
-                
+                print("Potree file generated successfully: " + target_url)
 
 def generate_collection():
     rdfs = []
@@ -68,7 +69,6 @@ def generate_collection():
         rdf.update(item)
         rdfs.append(rdf)
         generate_potree(rdf, "datasets", ["*.smlm"])
-        break
     
     collection["collection"] = rdfs
     os.makedirs("dist", exist_ok=True)
