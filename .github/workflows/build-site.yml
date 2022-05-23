@@ -10,7 +10,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  detect-changes:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -40,6 +40,16 @@ jobs:
           You can also override the keys by adding additional keys (e.g. `tags`) into the corresponding item.
         labels: |
           automated pr
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v3
+      with:
+        python-version: '3.8'
+        cache: 'pip'
+    - run: pip install -r requirements.txt
     - name: Generate collection
       env:
         S3_ENDPOINT:  ${{ secrets.S3_ENDPOINT }}
