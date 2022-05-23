@@ -22,7 +22,7 @@ def update_from_zenodo():
 
         for hit in hits:
             new_dois.append(hit["doi"])
-            if hit["doi"] in old_dois:
+            if hit["doi"] in old_dois or not hit['metadata']['relations']['version'][0]['is_last']:
                 continue
             rdf_urls = [file_hit["links"]["self"] for file_hit in hit["files"] if file_hit["key"] == "rdf.yaml"]
             item = {

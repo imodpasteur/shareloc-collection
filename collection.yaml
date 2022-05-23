@@ -21,10 +21,10 @@ collection:
   id: '5514126'
   name: 3D actin
   rdf_source: https://zenodo.org/api/files/c5cd0edf-152f-4f9e-a693-1c3ddeb3a67d/rdf.yaml
-- doi: 10.5281/zenodo.5534338
+- doi: 10.5281/zenodo.5541063
   id: '5514120'
-  name: 3D microtubules part 1
-  rdf_source: https://zenodo.org/api/files/67ec49e7-fd1a-42cc-8df5-6f0aaf12b382/rdf.yaml
+  name: 3D microtubules
+  rdf_source: https://zenodo.org/api/files/cd238beb-d669-407b-a6b8-f514af64e82e/rdf.yaml
 - doi: 10.5281/zenodo.5513608
   id: '5513607'
   name: Microtubules of U2OS cells
@@ -53,30 +53,30 @@ collection:
   id: '5510685'
   name: Microtubules of COS7 cells
   rdf_source: https://zenodo.org/api/files/03e0cf82-d2ef-41e7-86a8-93b96d5117a7/rdf.yaml
-- doi: 10.5281/zenodo.5510711
+- doi: 10.5281/zenodo.5534342
   id: '5510610'
   name: 2D microtubules stained with Alexa647 part 5
-  rdf_source: https://zenodo.org/api/files/f750c067-8f65-4fb0-b77a-e0325cde0e16/rdf.yaml
-- doi: 10.5281/zenodo.5510710
+  rdf_source: https://zenodo.org/api/files/abd06e76-e611-4c44-9f98-9ac5b1964694/rdf.yaml
+- doi: 10.5281/zenodo.5534346
   id: '5510568'
   name: 2D microtubules stained with Alexa647 part 4
-  rdf_source: https://zenodo.org/api/files/a06331a7-cafb-4ae3-9a65-280f8383c0c5/rdf.yaml
-- doi: 10.5281/zenodo.5510709
+  rdf_source: https://zenodo.org/api/files/0ea04477-f487-44d5-8207-cb09795570ee/rdf.yaml
+- doi: 10.5281/zenodo.5534351
   id: '5510553'
   name: 2D microtubules stained with Alexa647 part 3
-  rdf_source: https://zenodo.org/api/files/db7ba190-9128-45f2-b25e-f965c3558a95/rdf.yaml
-- doi: 10.5281/zenodo.5510704
+  rdf_source: https://zenodo.org/api/files/8df36752-666b-4b21-8586-104165c15a94/rdf.yaml
+- doi: 10.5281/zenodo.5534354
   id: '5510466'
   name: 2D microtubules stained with Alexa647 part 2
-  rdf_source: https://zenodo.org/api/files/d68e3b88-c432-4f35-a98f-bdf858a98f13/rdf.yaml
-- doi: 10.5281/zenodo.5510693
+  rdf_source: https://zenodo.org/api/files/500afd3b-122a-40d7-a219-a0786a72c776/rdf.yaml
+- doi: 10.5281/zenodo.5534358
   id: '5510365'
   name: 2D microtubules stained with Alexa647 part 1
-  rdf_source: https://zenodo.org/api/files/335c54fe-f8c8-471e-b7fa-79d732e509d3/rdf.yaml
-- doi: 10.5281/zenodo.5510692
+  rdf_source: https://zenodo.org/api/files/6fcbc3ec-bc10-448f-867a-0d18e164c20b/rdf.yaml
+- doi: 10.5281/zenodo.5535841
   id: '5509777'
   name: Vimentin proteins in MEF cells
-  rdf_source: https://zenodo.org/api/files/9f73e6d4-d043-4a2f-8ffe-936ff4328faf/rdf.yaml
+  rdf_source: https://zenodo.org/api/files/f8cdd7c4-b0a1-41bf-88bc-8f3cdbc2d9ef/rdf.yaml
 - doi: 10.5281/zenodo.5508237
   id: '5508236'
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 76-80
@@ -117,14 +117,14 @@ collection:
   id: '5507482'
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 6-7
   rdf_source: https://zenodo.org/api/files/dbfaf2b5-9d82-4f70-b91c-2817c3a0674b/rdf.yaml
-- doi: 10.5281/zenodo.5507424
+- doi: 10.5281/zenodo.5507427
   id: '5507420'
   name: Microtubules and clathrin in a Cos cell
-  rdf_source: https://zenodo.org/api/files/6b74019e-3988-4e24-978d-6cf4a05204ee/rdf.yaml
-- doi: 10.5281/zenodo.5507487
+  rdf_source: https://zenodo.org/api/files/b488b9b2-c737-4e0c-97de-ba960ab1418e/rdf.yaml
+- doi: 10.5281/zenodo.5507520
   id: '5507349'
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 1-5
-  rdf_source: https://zenodo.org/api/files/29d8358d-48c5-4780-b428-f133946803b0/rdf.yaml
+  rdf_source: https://zenodo.org/api/files/436ece34-aa29-4c8e-bf26-30251eb1b181/rdf.yaml
 - doi: 10.5281/zenodo.5507305
   id: '5507304'
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 30-34
@@ -137,48 +137,46 @@ collection:
   id: '5507152'
   name: 3D dSTORM with DAISY stained with Alexa-647
   rdf_source: https://zenodo.org/api/files/82af55ef-588f-4817-be3e-71fd6164d839/rdf.yaml
-- doi: 10.5281/zenodo.5507075
+- doi: 10.5281/zenodo.5512732
   id: '5507073'
   name: central canal of Xenopus nuclear pore complex
-  rdf_source: https://zenodo.org/api/files/60178ae5-2014-4ee5-8e09-351784f9f9cd/rdf.yaml
-- doi: 10.5281/zenodo.5510651
+  rdf_source: https://zenodo.org/api/files/36f0d831-f41b-4b14-92c7-6c502019e52b/rdf.yaml
+- doi: 10.5281/zenodo.5510661
   id: '5506633'
-  name: Actin of Cos-7 cell
-  rdf_source: https://zenodo.org/api/files/7214f2b9-3159-449d-8fdf-f04c25dd6e9e/rdf.yaml
-- doi: 10.5281/zenodo.5510660
+  name: Actin with PhalloidinAF647 in COS7
+  rdf_source: https://zenodo.org/api/files/b411ba65-3eef-4d81-a4a7-f5576f6692ea/rdf.yaml
+- doi: 10.5281/zenodo.5512657
   id: '5506623'
   name: Actin with PhalloidinAF647 in COS7 part 2
-  rdf_source: https://zenodo.org/api/files/7946c726-d5d1-4a37-adea-ee66e750748d/rdf.yaml
-- doi: 10.5281/zenodo.5506605
+  rdf_source: https://zenodo.org/api/files/82787b5b-1a10-405e-b11f-c67c2be4ba7f/rdf.yaml
+- doi: 10.5281/zenodo.5512623
   id: '5504141'
   name: gp210 proteins of Xenopus laevis nuclear pore complex stained with Alexa647
-  rdf_source: https://zenodo.org/api/files/51ee3f65-655f-46a8-84ef-7c89c9be4851/rdf.yaml
-- doi: 10.5281/zenodo.5504126
+  rdf_source: https://zenodo.org/api/files/3402bc36-e846-4ebc-841f-12786832e830/rdf.yaml
+- doi: 10.5281/zenodo.5510226
   id: '5504124'
-  name: Xenopus laevis nuclear pore complex
-  rdf_source: https://zenodo.org/api/files/67c59a5b-11e9-431b-8dea-db2f91255fca/rdf.yaml
-- doi: 10.5281/zenodo.5504128
+  name: Xenopus laevis nuclear pore complex stained with WGA-ATTO520
+  rdf_source: https://zenodo.org/api/files/7a4de411-de28-4f9b-b437-34d2bee054d4/rdf.yaml
+- doi: 10.5281/zenodo.5506652
   id: '5504101'
-  name: nuclear pore complex stained with alexa647
-  rdf_source: https://zenodo.org/api/files/c2e80a61-81ae-4705-8c10-ae1b1f4f3186/rdf.yaml
-- doi: 10.5281/zenodo.5504105
+  name: gp210 proteins of nuclear pore complex stained with alexa647
+  rdf_source: https://zenodo.org/api/files/de50a4db-81f0-4b93-be3f-706376caf355/rdf.yaml
+- doi: 10.5281/zenodo.5507634
   id: '5503926'
-  name: Microtubules immuno-labeled with Alexa 647 with widefield images sample 015
-    to 019
-  rdf_source: https://zenodo.org/api/files/8eb0a319-ad0a-40ca-9932-41a0b15f0f46/rdf.yaml
-- doi: 10.5281/zenodo.5504110
+  name: Microtubules immuno-labeled with Alexa 647 with widefield images 15-19
+  rdf_source: https://zenodo.org/api/files/634ce22b-ba77-4945-9ee7-603bac77bdc6/rdf.yaml
+- doi: 10.5281/zenodo.5507053
   id: '5503798'
-  name: Microtubules immuno-labeled with Alexa 647 with widefield images sample 025
-    to 029
-  rdf_source: https://zenodo.org/api/files/405412e8-c4a2-40a7-8d19-e08780902c68/rdf.yaml
+  name: Microtubules immuno-labeled with Alexa 647 with widefield images 25-29
+  rdf_source: https://zenodo.org/api/files/50b88010-7a70-44ac-9631-a05ecdfab1fa/rdf.yaml
 - doi: 10.5281/zenodo.5512636
   id: '5503682'
   name: Mitochondrial protein TOM22 in COS7 cells
   rdf_source: https://zenodo.org/api/files/2780b14e-326e-4f58-baca-297341b56875/rdf.yaml
-- doi: 10.5281/zenodo.5507060
+- doi: 10.5281/zenodo.5507638
   id: '5501779'
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 8-14
-  rdf_source: https://zenodo.org/api/files/dde24729-2daf-4826-85c0-ebe1b9eba2f6/rdf.yaml
+  rdf_source: https://zenodo.org/api/files/fa70fcbd-1f24-417b-a7af-7995e0bbb306/rdf.yaml
 - doi: 10.5281/zenodo.5215421
   id: '5215420'
   name: NIH3T3 labelled microtubules AF647 060515
@@ -207,10 +205,10 @@ collection:
   id: '5184658'
   name: Cos7 labelled microtubules with alex fluor 647 - 280721 part1
   rdf_source: https://zenodo.org/api/files/71213102-ef60-477d-9fba-6df66de75abc/rdf.yaml
-- doi: 10.5281/zenodo.5215751
+- doi: 10.5281/zenodo.5507641
   id: '5182330'
-  name: MSINGH microtubules alexa647 with widefield images 001to007 Production Mode
-  rdf_source: https://zenodo.org/api/files/d1567bcd-9465-4fc9-9459-5b016582e6c5/rdf.yaml
+  name: Microtubules immuno-labeled with Alexa 647 with widefield images 1-7
+  rdf_source: https://zenodo.org/api/files/860cd212-5944-47ed-ac07-4a55ab4bc146/rdf.yaml
 - doi: 10.5281/zenodo.5174498
   id: '5174497'
   name: Cos7 cells labelled microtubules 270721 Part 2
