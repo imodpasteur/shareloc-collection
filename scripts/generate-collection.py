@@ -6,6 +6,7 @@ import os
 from tqdm import tqdm
 from shareloc_utils.batch_download import download_url, resolve_url, convert_potree, convert_smlm
 import boto3
+import shutil
 
 S3_ENDPOINT = os.environ.get("S3_ENDPOINT")
 S3_BUCKET = "public"
@@ -43,7 +44,10 @@ def generate_potree(rdf, dataset_dir, file_patterns, extension=".potree.zip", de
                 convert_potree(file_path, True)
                 
                 print("Uploading " + file_path + " to s3...")
-                s3_client.download_file(file_path.replace(".smlm", ".potree.zip"), S3_BUCKET, object_name)
+                s3_client.upload_file(file_path.replace(".smlm", ".potree.zip"), S3_BUCKET, object_name)
+
+                # Remove the folder
+                shutil.rmtree(os.path.join(dataset_dir, rdf["doi"])) 
                 
 
 def generate_collection():
