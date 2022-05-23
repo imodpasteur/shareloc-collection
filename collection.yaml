@@ -5,6 +5,221 @@ collection:
   id: '5174497'
   name: Cos7 cells labelled microtubules 270721 Part 2
   rdf_source: https://zenodo.org/api/files/792cf14f-5f3b-4301-afec-dc42c9c076c9/rdf.yaml
+- doi: 10.5281/zenodo.5783066
+  id: '5783065'
+  name: Microtubules immuno-labeled with Alexa 647 CSV and raw data Cell035
+  rdf_source: https://zenodo.org/api/files/e2a76f01-0d83-4658-9e65-a6a9645d5a84/rdf.yaml
+- doi: 10.5281/zenodo.5773617
+  id: '5773616'
+  name: Microtubules immuno-labeled with Alexa 647 CSV and raw data_Cell033
+  rdf_source: https://zenodo.org/api/files/35424df4-70fe-46f7-9a3e-4ee18c0e03f2/rdf.yaml
+- doi: 10.5281/zenodo.5773453
+  id: '5773452'
+  name: Microtubules immuno-labeled with Alexa 647 CSV and raw data
+  rdf_source: https://zenodo.org/api/files/724b03e7-6329-410f-b093-43aac110da1b/rdf.yaml
+- doi: 10.5281/zenodo.5535740
+  id: '5535739'
+  name: 2D actin images
+  rdf_source: https://zenodo.org/api/files/43c7b337-2165-49c1-b091-0d7bb91fc071/rdf.yaml
+- doi: 10.5281/zenodo.5514127
+  id: '5514126'
+  name: 3D actin
+  rdf_source: https://zenodo.org/api/files/53a3f320-581f-4f0f-9d9f-a8601c656920/rdf.yaml
+- doi: 10.5281/zenodo.5514121
+  id: '5514120'
+  name: 3D microtubules part 1
+  rdf_source: https://zenodo.org/api/files/0d90fa08-affb-4a65-a4fe-8085687d587d/rdf.yaml
+- doi: 10.5281/zenodo.5513608
+  id: '5513607'
+  name: Microtubules of U2OS cells
+  rdf_source: https://zenodo.org/api/files/48a8996a-e9ef-49d8-be2b-25026c3c5dbd/rdf.yaml
+- doi: 10.5281/zenodo.5513504
+  id: '5513503'
+  name: Microtubules of COS7 cells stained with Alexa 532
+  rdf_source: https://zenodo.org/api/files/968862f4-87e8-4b08-89e4-b302a2d17a74/rdf.yaml
+- doi: 10.5281/zenodo.5512818
+  id: '5512817'
+  name: Microtubules in COS7 cells part 2
+  rdf_source: https://zenodo.org/api/files/c2debe62-b353-4f1d-aa80-4cf25b0ce469/rdf.yaml
+- doi: 10.5281/zenodo.5512205
+  id: '5512204'
+  name: Microtubules immuno-labeled with CF680
+  rdf_source: https://zenodo.org/api/files/477b70f6-9c21-4562-b77a-a64512bf8b02/rdf.yaml
+- doi: 10.5281/zenodo.5512383
+  id: '5512382'
+  name: Microtubules in COS7 cells part 1
+  rdf_source: https://zenodo.org/api/files/d1ca1026-ac69-42b2-8291-d836d1e99b33/rdf.yaml
+- doi: 10.5281/zenodo.5510691
+  id: '5510690'
+  name: Microtubules of COS7 cells - part 2
+  rdf_source: https://zenodo.org/api/files/aa801c86-e874-45a9-9c55-0d65e1c05f90/rdf.yaml
+- doi: 10.5281/zenodo.5510686
+  id: '5510685'
+  name: Microtubules of COS7 cells
+  rdf_source: https://zenodo.org/api/files/03e0cf82-d2ef-41e7-86a8-93b96d5117a7/rdf.yaml
+- doi: 10.5281/zenodo.5510611
+  id: '5510610'
+  name: 2D microtubules stained with Alexa647 part 5
+  rdf_source: https://zenodo.org/api/files/e9c30d9a-d02f-4029-8498-5641add85e8c/rdf.yaml
+- doi: 10.5281/zenodo.5510569
+  id: '5510568'
+  name: 2D microtubules stained with Alexa647 part 4
+  rdf_source: https://zenodo.org/api/files/0f018780-92be-469f-aa25-71f34142dc91/rdf.yaml
+- doi: 10.5281/zenodo.5510554
+  id: '5510553'
+  name: 2D microtubules stained with Alexa647 part 3
+  rdf_source: https://zenodo.org/api/files/39b20235-20ef-4714-8434-fbe0be476f58/rdf.yaml
+- doi: 10.5281/zenodo.5510467
+  id: '5510466'
+  name: 2D microtubules stained with Alexa647 part 2
+  rdf_source: https://zenodo.org/api/files/6526e65c-da08-4e53-8878-d745542b9389/rdf.yaml
+- doi: 10.5281/zenodo.5510366
+  id: '5510365'
+  name: 2D microtubules stained with Alexa647 part 1
+  rdf_source: https://zenodo.org/api/files/401fd736-6ef2-4c3c-92f3-5f8db72132df/rdf.yaml
+- doi: 10.5281/zenodo.5509778
+  id: '5509777'
+  name: Vimentin proteins in MEF cells
+  rdf_source: https://zenodo.org/api/files/af711ab6-877b-41a7-aebb-041a01869b2f/rdf.yaml
+- doi: 10.5281/zenodo.5508228
+  id: '5508227'
+  name: Microtubules immuno-labeled with Alexa 647 with widefield images 70-75
+  rdf_source: https://zenodo.org/api/files/b49f7508-8cbf-4ea8-af15-73813be1c478/rdf.yaml
+- doi: 10.5281/zenodo.5508237
+  id: '5508236'
+  name: Microtubules immuno-labeled with Alexa 647 with widefield images 76-80
+  rdf_source: https://zenodo.org/api/files/531ec2fc-849e-4a7b-b0b9-bfe8648ca20c/rdf.yaml
+- doi: 10.5281/zenodo.5508212
+  id: '5508211'
+  name: Microtubules immuno-labeled with Alexa 647 with widefield images 60-64
+  rdf_source: https://zenodo.org/api/files/eb8c7653-5c47-43dc-b16c-26ee4076253d/rdf.yaml
+- doi: 10.5281/zenodo.5508210
+  id: '5508209'
+  name: Microtubules immuno-labeled with Alexa 647 with widefield images 65-69
+  rdf_source: https://zenodo.org/api/files/26b97ac4-a92f-4e0a-ae93-180d2863bfda/rdf.yaml
+- doi: 10.5281/zenodo.5507826
+  id: '5507825'
+  name: Microtubules immuno-labeled with Alexa 647 with widefield images 50-54
+  rdf_source: https://zenodo.org/api/files/2c0ab82e-cd7c-4907-ad9a-55dc2c42571a/rdf.yaml
+- doi: 10.5281/zenodo.5507976
+  id: '5507975'
+  name: Microtubules immuno-labeled with Alexa 647 with widefield images 55-59
+  rdf_source: https://zenodo.org/api/files/88b4fe0c-f76b-4431-b39a-b09c599a0d93/rdf.yaml
+- doi: 10.5281/zenodo.5507679
+  id: '5507678'
+  name: Microtubules immuno-labeled with Alexa 647 with widefield images 40-49
+  rdf_source: https://zenodo.org/api/files/7263e7c7-0924-4fb4-a44e-57b0014aee01/rdf.yaml
+- doi: 10.5281/zenodo.5507605
+  id: '5507604'
+  name: Microtubules immuno-labeled with Alexa 647 with widefield images 35-39
+  rdf_source: https://zenodo.org/api/files/2c8e4ebf-da81-4f61-93e9-97a13e22b2c2/rdf.yaml
+- doi: 10.5281/zenodo.5507483
+  id: '5507482'
+  name: Microtubules immuno-labeled with Alexa 647 with widefield images 6-7
+  rdf_source: https://zenodo.org/api/files/dbfaf2b5-9d82-4f70-b91c-2817c3a0674b/rdf.yaml
+- doi: 10.5281/zenodo.5507548
+  id: '5507547'
+  name: Microtubules immuno-labeled with Alexa 647 with widefield images 8
+  rdf_source: https://zenodo.org/api/files/e1da88ff-1c16-4a78-be1a-0d164749b452/rdf.yaml
+- doi: 10.5281/zenodo.5507350
+  id: '5507349'
+  name: Microtubules immuno-labeled with Alexa 647 with widefield images 1-5
+  rdf_source: https://zenodo.org/api/files/5c4e4937-97b5-4c52-9e7a-4bbd57f52c04/rdf.yaml
+- doi: 10.5281/zenodo.5507421
+  id: '5507420'
+  name: Microtubules and clathrin in a Cos cell
+  rdf_source: https://zenodo.org/api/files/43407316-c6aa-4a19-a5f7-cdb5c56ee514/rdf.yaml
+- doi: 10.5281/zenodo.5507305
+  id: '5507304'
+  name: Microtubules immuno-labeled with Alexa 647 with widefield images 30-34
+  rdf_source: https://zenodo.org/api/files/7243c813-83b7-48f8-90cd-cd2abfc2e850/rdf.yaml
+- doi: 10.5281/zenodo.5507273
+  id: '5507272'
+  name: Microtubules immuno-labeled with Alexa 647 with widefield images 20-24
+  rdf_source: https://zenodo.org/api/files/c3808b26-0e0e-49ea-909a-455b253e8607/rdf.yaml
+- doi: 10.5281/zenodo.5507153
+  id: '5507152'
+  name: 3D dSTORM with DAISY stained with Alexa-647
+  rdf_source: https://zenodo.org/api/files/93a9534b-fc63-482d-bf27-feab6b6e289e/rdf.yaml
+- doi: 10.5281/zenodo.5507074
+  id: '5507073'
+  name: central canal of Xenopus nuclear pore complex
+  rdf_source: https://zenodo.org/api/files/4dadc936-00b9-4288-8072-32b3fbcfad4f/rdf.yaml
+- doi: 10.5281/zenodo.5506634
+  id: '5506633'
+  name: Actin of Cos-7 cell stained with phalloidin Alexa647
+  rdf_source: https://zenodo.org/api/files/ade5d076-f646-41e4-85b4-29572ba61975/rdf.yaml
+- doi: 10.5281/zenodo.5506624
+  id: '5506623'
+  name: Actin stained with caged Si-rhodamine phalloidin
+  rdf_source: https://zenodo.org/api/files/338b8bec-9b8b-4435-9e96-4716ac5b97d9/rdf.yaml
+- doi: 10.5281/zenodo.5504142
+  id: '5504141'
+  name: gp210 proteins of Xenopus laevis nuclear pore complex
+  rdf_source: https://zenodo.org/api/files/fdff205d-bc26-474d-a059-43cff1edc186/rdf.yaml
+- doi: 10.5281/zenodo.5504125
+  id: '5504124'
+  name: 06_wga_ATTO520
+  rdf_source: https://zenodo.org/api/files/29822e55-391e-4ecd-8f20-6255bfec95f0/rdf.yaml
+- doi: 10.5281/zenodo.5504102
+  id: '5504101'
+  name: NPC_gp210-Alexa-647
+  rdf_source: https://zenodo.org/api/files/f310f95e-4928-46a2-8433-543244feeff2/rdf.yaml
+- doi: 10.5281/zenodo.5503927
+  id: '5503926'
+  name: Microtubules immuno-labeled with Alexa 647 with widefield images sample 015
+    to 0
+  rdf_source: https://zenodo.org/api/files/5427703a-35ee-44e4-a057-20c62bf6bd68/rdf.yaml
+- doi: 10.5281/zenodo.5503799
+  id: '5503798'
+  name: Microtubules immuno-labeled with Alexa 647 with widefield images sample 022
+    to 028
+  rdf_source: https://zenodo.org/api/files/ff460f18-5528-46f3-80d4-25416c0fbad4/rdf.yaml
+- doi: 10.5281/zenodo.5503683
+  id: '5503682'
+  name: Mitochondrial protein TOM22 in COS7 cells
+  rdf_source: https://zenodo.org/api/files/9b598f3f-7e62-442f-a0a8-b7e507ac1927/rdf.yaml
+- doi: 10.5281/zenodo.5501780
+  id: '5501779'
+  name: Microtubules immuno-labeled with Alexa 647 with widefield images sample 008
+    to 014
+  rdf_source: https://zenodo.org/api/files/eb59cb73-caa1-4a25-9ffa-501c8dd0830d/rdf.yaml
+- doi: 10.5281/zenodo.5215421
+  id: '5215420'
+  name: NIH3T3 labelled microtubules AF647 060515
+  rdf_source: https://zenodo.org/api/files/d88b3766-35f9-4704-9047-1029a1df76ef/rdf.yaml
+- doi: 10.5281/zenodo.5215324
+  id: '5215323'
+  name: MDCK alexa647 labelled microtubules 300720
+  rdf_source: https://zenodo.org/api/files/c1d59023-dcc5-44bd-b88e-808edcb9b901/rdf.yaml
+- doi: 10.5281/zenodo.5215248
+  id: '5215247'
+  name: REF52 alexa647 labelled microtubules 290720 300720
+  rdf_source: https://zenodo.org/api/files/7e1467d9-aefb-4d58-b1cd-ff937c191572/rdf.yaml
+- doi: 10.5281/zenodo.5214573
+  id: '5214572'
+  name: REF52 microtubules with AF647 200729 lvl11 sCMOS
+  rdf_source: https://zenodo.org/api/files/6d8f3830-8c2e-418c-8d1e-68a68985e251/rdf.yaml
+- doi: 10.5281/zenodo.5205355
+  id: '5205354'
+  name: Cos7 cells labelled microtubules 280721 part 3
+  rdf_source: https://zenodo.org/api/files/f56d0799-f34d-42c1-ae4a-221ececefe97/rdf.yaml
+- doi: 10.5281/zenodo.5184678
+  id: '5184677'
+  name: Cos7 labelled microtubules with alex fluor 647 - 280721 part2
+  rdf_source: https://zenodo.org/api/files/0c803cec-a8d7-449c-8155-80e191d564b6/rdf.yaml
+- doi: 10.5281/zenodo.5184659
+  id: '5184658'
+  name: Cos7 labelled microtubules with alex fluor 647 - 280721 part1
+  rdf_source: https://zenodo.org/api/files/71213102-ef60-477d-9fba-6df66de75abc/rdf.yaml
+- doi: 10.5281/zenodo.5182331
+  id: '5182330'
+  name: MSINGH microtubules alexa647 with widefield images 001to007 Production Mode
+  rdf_source: https://zenodo.org/api/files/c12d34fb-5548-45ad-9fc8-fe61202aa62e/rdf.yaml
+- doi: 10.5281/zenodo.5174118
+  id: '5174117'
+  name: Cos7 cells labelled microtubules 270721 Part 1
+  rdf_source: https://zenodo.org/api/files/7cf5eda7-39f2-49d7-8a2c-0d626cd829bb/rdf.yaml
 description: ShareLoc.XYZ collection RDF
 documentation: README.md
 format_version: 0.2.1
