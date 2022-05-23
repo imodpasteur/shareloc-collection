@@ -18,7 +18,7 @@ jobs:
       with:
         python-version: '3.8'
         cache: 'pip'
-    - run: pip install -r requirements.txt
+    - run: pip install requests pyyaml
     - name: Update collection
       run: python3 scripts/update-collection.py
     - name: Create Pull Request
@@ -34,10 +34,10 @@ jobs:
         delete-branch: true
         title: 'Update ShareLoc.XYZ Collection'
         body: |
-          This is a automatic PR for updating the collection
-          Please check the updated items and merge this PR if they are ready.
-          To block an item, you can set its `status` to `blocked`.
-          You can also override the keys by adding additional keys (e.g. `tags`) into the corresponding item.
+          This is an automatic PR for updating the collection.
+           * Please check the updated items and merge this PR if they are ready.
+           * To block an item, you can set its `status` to `blocked`.
+           * You can also override the keys by adding additional keys (e.g. `tags`) into the corresponding item.
         labels: |
           automated pr
 

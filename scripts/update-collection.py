@@ -1,5 +1,4 @@
 import requests
-from datetime import datetime
 import yaml
 
 def update_from_zenodo():
