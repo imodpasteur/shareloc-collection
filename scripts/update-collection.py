@@ -31,11 +31,13 @@ def update_from_zenodo():
                 "rdf_source": sorted(rdf_urls)[0],
                 "name": hit["metadata"]["title"],
             }
-            old_item = list(filter(lambda x: x["id"] == item["id"], items))[0]
-            # In case there are fields that are overwritten, we inherit them
-            item.update({k: old_item[k] for k in old_item if k not in ["id", "name", "rdf_source", "doi"]})
-            # Remove old item with the same id
-            items = [x for x in items if x["id"] != item["id"]]
+            old_items = list(filter(lambda x: x["id"] == item["id"], items))
+            if len(old_items) > 0:
+                old_item = old_items[0]
+                # In case there are fields that are overwritten, we inherit them
+                item.update({k: old_item[k] for k in old_item if k not in ["id", "name", "rdf_source", "doi"]})
+                # Remove old item with the same id
+                items = [x for x in items if x["id"] != item["id"]]
             items.append(item)
     
     # Remove item from collection if the doi does not exist any more in new_dois
