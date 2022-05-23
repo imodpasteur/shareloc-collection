@@ -51,6 +51,9 @@ def generate_potree(rdf, dataset_dir, file_patterns, extension=".potree.zip", de
                 shutil.rmtree(os.path.join(dataset_dir, rdf["doi"])) 
                 print("Potree file generated successfully: " + target_url)
 
+            file["potree_preview"] = target_url
+
+
 def generate_collection():
     rdfs = []
     with open("collection.yaml", "rb") as f:
@@ -58,6 +61,9 @@ def generate_collection():
     items = collection["collection"]
     for item in tqdm(items):
         rdf_source = item["rdf_source"]
+        if item.get('status') == 'blocked':
+            print(f"Skipping blocked item {item['doi']}: {item['name']}...")
+            continue
         r = requests.get(rdf_source)
         if not r.status_code == 200:
             print(f"Could not get item {item['id']}: {r.status_code}: {r.reason}")

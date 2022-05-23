@@ -26,6 +26,20 @@ jobs:
       with:
         add-paths: |
           collection.yaml
+        commit-message: Update ShareLoc.XYZ Collection
+        committer: ShareLoc.XYZ <shareloc@pasteur>
+        author: ShareLoc.XYZ <shareloc@pasteur>
+        signoff: false
+        branch: main
+        delete-branch: true
+        title: 'Update ShareLoc.XYZ Collection'
+        body: |
+          This is a automatic PR for updating the collection
+          Please check the updated items and merge this PR if they are ready.
+          To block an item, you can set its `status` to `blocked`.
+          You can also override the keys by adding additional keys (e.g. `tags`) into the corresponding item.
+        labels: |
+          automated pr
     - name: Generate collection
       env:
         S3_ENDPOINT:  ${{ secrets.S3_ENDPOINT }}
