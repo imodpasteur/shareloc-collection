@@ -79,6 +79,8 @@ def generate_collection():
     print(f"Generating collection.json for {len(rdfs)} items...")
     collection["collection"] = rdfs
     os.makedirs("dist", exist_ok=True)
-    json.dump(collection, open("dist/collection.json", "w"), indent=2)
-      
+    json.dump(collection, open("dist/collection.json", "w"))
+    with open("dist/collection.yaml", "wb") as f:
+        f.write(yaml.dump(collection, encoding='utf-8'))
+
 generate_collection()  
