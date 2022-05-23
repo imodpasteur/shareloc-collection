@@ -45,6 +45,11 @@ def update_from_zenodo():
     for item in items:
         if item["doi"] in new_dois:
             clean_items.append(item)
+    
+    def sort_by_id(x):
+        return int(x['id'])
+
+    clean_items.sort(key=sort_by_id)
     collection["collection"] = clean_items
 
     with open("collection.yaml", "wb") as f:
