@@ -1,6 +1,10 @@
 authors:
 - name: ShareLoc.XYZ Team
-collection: []
+collection:
+- doi: 10.5281/zenodo.5174498
+  id: '5174497'
+  name: Cos7 cells labelled microtubules 270721 Part 2
+  rdf_source: https://zenodo.org/api/files/792cf14f-5f3b-4301-afec-dc42c9c076c9/rdf.yaml
 description: ShareLoc.XYZ collection RDF
 documentation: README.md
 format_version: 0.2.1
