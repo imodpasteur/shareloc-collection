@@ -2,7 +2,11 @@ import requests
 import yaml
 
 def update_from_zenodo():
-    items = []
+    with open("collection.yaml", "rb") as f:
+        collection = yaml.safe_load(f.read())
+    items = collection["collection"]
+    old_dois = [item["doi"] for item in items]
+    new_dois = []
     for page in range(1, 1000):
         zenodo_request = f"https://zenodo.org/api/records/?&sort=mostrecent&page={page}&size=1000&all_versions=1&keywords=shareloc.xyz"
         r = requests.get(zenodo_request)
@@ -17,11 +21,9 @@ def update_from_zenodo():
             break
 
         for hit in hits:
-            # created = datetime.fromisoformat(hit["created"]).replace(tzinfo=None)
-            # assert isinstance(created, datetime), created
-            # resource_path = collection / resource_doi / "resource.yaml"
-            # resource_output_path = dist / resource_doi / "resource.yaml"
-            # version_name = f"version {hit['metadata']['relations']['version'][0]['index'] + 1}"
+            new_dois.append(hit["doi"])
+            if hit["doi"] in old_dois:
+                continue
             rdf_urls = [file_hit["links"]["self"] for file_hit in hit["files"] if file_hit["key"] == "rdf.yaml"]
             item = {
                 "id": hit["conceptrecid"],
@@ -29,12 +31,20 @@ def update_from_zenodo():
                 "rdf_source": sorted(rdf_urls)[0],
                 "name": hit["metadata"]["title"],
             }
+            old_item = list(filter(lambda x: x["id"] == item["id"], items))[0]
+            # In case there are fields that are overwritten, we inherit them
+            item.update({k: old_item[k] for k in old_item if k not in ["id", "name", "rdf_source", "doi"]})
+            # Remove old item with the same id
+            items = [x for x in items if x["id"] != item["id"]]
             items.append(item)
-
-    with open("collection.yaml", "rb") as f:
-        collection = yaml.safe_load(f.read())
-    collection["collection"] = items
     
+    # Remove item from collection if the doi does not exist any more in new_dois
+    clean_items = []
+    for item in items:
+        if item["doi"] in new_dois:
+            clean_items.append(item)
+    collection["collection"] = clean_items
+
     with open("collection.yaml", "wb") as f:
         f.write(yaml.dump(collection, encoding='utf-8'))
     
