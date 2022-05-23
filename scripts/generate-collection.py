@@ -73,8 +73,8 @@ def generate_collection():
             .replace("!<tag:yaml.org,2002:js/undefined>", ""),
         )
         rdf.update(item)
-        rdfs.append(rdf)
         generate_potree(rdf, "datasets")
+        rdfs.append(rdf)
     
     collection["collection"] = rdfs
     os.makedirs("dist", exist_ok=True)
