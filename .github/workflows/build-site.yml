@@ -30,7 +30,7 @@ jobs:
         committer: ShareLoc.XYZ <shareloc@pasteur>
         author: ShareLoc.XYZ <shareloc@pasteur>
         signoff: false
-        branch: main
+        branch: update-collection
         delete-branch: true
         title: 'Update ShareLoc.XYZ Collection'
         body: |
