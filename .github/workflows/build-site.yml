@@ -51,10 +51,6 @@ jobs:
         python-version: '3.8'
         cache: 'pip'
     - run: pip install -r requirements.txt
-    - name: Update collection
-      # Only update this on update-collection branch
-      if: github.ref == 'refs/heads/update-collection'
-      run: python3 scripts/update-collection.py
     - name: Generate collection
       env:
         S3_ENDPOINT:  ${{ secrets.S3_ENDPOINT }}
