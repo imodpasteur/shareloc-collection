@@ -16,6 +16,25 @@ S3_SECRET = os.environ.get("S3_SECRET")
 
 S3_URL = f"{S3_ENDPOINT}/{S3_BUCKET}/{S3_DATA_DIR}"
 
+SUMMARY_FIELDS = [
+    "authors",
+    "badges",
+    "covers",
+    "description",
+    "download_url",
+    "github_repo",
+    "icon",
+    "id",
+    "license",
+    "links",
+    "name",
+    "rdf_source",
+    "source",
+    "tags",
+    "type",
+    "doi",
+]
+
 def generate_potree(rdf, dataset_dir):
     attachments = rdf["attachments"]
     rdf_url = rdf["rdf_source"]
@@ -74,7 +93,8 @@ def generate_collection():
         )
         rdf.update(item)
         generate_potree(rdf, "datasets")
-        rdfs.append(rdf)
+        summary = {k: v for k, v in rdf.items() if k in SUMMARY_FIELDS}
+        rdfs.append(summary)
     
     print(f"Generating collection.json for {len(rdfs)} items...")
     collection["collection"] = rdfs
