@@ -76,6 +76,7 @@ def generate_collection():
         generate_potree(rdf, "datasets")
         rdfs.append(rdf)
     
+    print(f"Generating collection.json for {len(rdfs)} items...")
     collection["collection"] = rdfs
     os.makedirs("dist", exist_ok=True)
     json.dump(collection, open("dist/collection.json", "w"), indent=2)
