@@ -1,0 +1,16 @@
+{
+  "authors": [
+    {
+      "name": "ShareLoc.XYZ Team"
+    }
+  ],
+  "collection": [],
+  "description": "ShareLoc.XYZ collection RDF",
+  "documentation": "README.md",
+  "format_version": "0.2.1",
+  "git_repo": "https://github.com/imodpasteur/shareloc-collection",
+  "name": "ShareLoc.XYZ",
+  "tags": [],
+  "type": "collection",
+  "version": "0.2.2"
+}
