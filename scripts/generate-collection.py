@@ -16,7 +16,7 @@ S3_SECRET = os.environ.get("S3_SECRET")
 
 S3_URL = f"{S3_ENDPOINT}/{S3_BUCKET}/{S3_DATA_DIR}"
 
-def generate_potree(rdf, dataset_dir, file_patterns, extension=".potree.zip", delimiter=","):
+def generate_potree(rdf, dataset_dir):
     attachments = rdf["attachments"]
     rdf_url = rdf["rdf_source"]
     for sample in attachments["samples"]:
