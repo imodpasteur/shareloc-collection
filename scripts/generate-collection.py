@@ -48,7 +48,6 @@ def generate_potree(rdf, dataset_dir):
                 target_url = S3_URL + "/" + zip_name
                 print(f"Checking {target_url}...")
                 r = requests.head(target_url)
-                file["potree_preview"] = target_url
                 if r.status_code == 200:
                     print("File already exists in the s3: " + zip_name)
                     continue 
