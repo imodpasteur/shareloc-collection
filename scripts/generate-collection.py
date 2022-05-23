@@ -74,7 +74,7 @@ def generate_collection():
         )
         rdf.update(item)
         rdfs.append(rdf)
-        generate_potree(rdf, "datasets", ["*.smlm"])
+        generate_potree(rdf, "datasets")
     
     collection["collection"] = rdfs
     os.makedirs("dist", exist_ok=True)
