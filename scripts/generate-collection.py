@@ -7,6 +7,7 @@ from tqdm import tqdm
 from shareloc_utils.batch_download import download_url, resolve_url, convert_potree, convert_smlm
 import boto3
 import shutil
+import random
 
 S3_ENDPOINT = os.environ.get("S3_ENDPOINT")
 S3_BUCKET = "public"
@@ -77,6 +78,9 @@ def generate_collection():
     with open("collection.yaml", "rb") as f:
         collection = yaml.safe_load(f.read())
     items = collection["collection"]
+
+    # Randomize to allow parallel processing
+    random.shuffle(items)
     for item in tqdm(items):
         rdf_source = item["rdf_source"]
         if item.get('status') == 'blocked':
@@ -96,6 +100,12 @@ def generate_collection():
         rdfs.append(summary)
     
     print(f"Generating collection.json for {len(rdfs)} items...")
+
+    def sort_by_id(x):
+        return -int(x['id'])
+
+    rdfs.sort(key=sort_by_id)
+
     collection["collection"] = rdfs
     os.makedirs("dist", exist_ok=True)
     json.dump(collection, open("dist/collection.json", "w"))
