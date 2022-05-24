@@ -89,7 +89,7 @@ def generate_potree(rdf, dataset_dir):
                 print("Potree file generated successfully: " + target_url)
 
 
-def generate_collection():
+def generate_collection(potree=False):
     rdfs = []
     with open("collection.yaml", "rb") as f:
         collection = yaml.safe_load(f.read())
@@ -110,7 +110,8 @@ def generate_collection():
             r.text.replace("!<tag:yaml.org,2002:js/undefined>", ""),
         )
         rdf.update(item)
-        generate_potree(rdf, "datasets")
+        if potree:
+            generate_potree(rdf, "datasets")
         summary = {k: v for k, v in rdf.items() if k in SUMMARY_FIELDS}
         rdfs.append(summary)
 
@@ -127,5 +128,13 @@ def generate_collection():
     with open("dist/collection.yaml", "wb") as f:
         f.write(yaml.dump(collection, encoding="utf-8"))
 
+if __name__ == '__main__':
+    import argparse
 
-generate_collection()
+    parser = argparse.ArgumentParser(description='Process some integers.')
+    parser.add_argument('--potree', action='store_true',
+                        help='Convert to potree and upload')
+
+    args = parser.parse_args()
+    
+    generate_collection(args.potree)
