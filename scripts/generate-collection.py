@@ -55,10 +55,8 @@ def generate_potree(rdf, dataset_dir):
                     file["name"].replace(".smlm", ".potree.zip"),
                 )
                 target_url = S3_URL + "/" + zip_name
-                print(f"Checking {target_url}...")
                 r = requests.head(target_url)
                 if r.status_code == 200:
-                    print("File already exists in the s3: " + zip_name)
                     continue
                 s3_client = boto3.client(
                     "s3",
