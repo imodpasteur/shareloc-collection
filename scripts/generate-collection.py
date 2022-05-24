@@ -42,7 +42,7 @@ SUMMARY_FIELDS = [
 ]
 
 
-def generate_potree(rdf, dataset_dir):
+def generate_potree(rdf, dataset_dir, force=False):
     attachments = rdf["attachments"]
     rdf_url = rdf["rdf_source"]
     for sample in attachments["samples"]:
@@ -55,9 +55,10 @@ def generate_potree(rdf, dataset_dir):
                     file["name"].replace(".smlm", ".potree.zip"),
                 )
                 target_url = S3_URL + "/" + zip_name
-                r = requests.head(target_url)
-                if r.status_code == 200:
-                    continue
+                if not force:
+                    r = requests.head(target_url)
+                    if r.status_code == 200:
+                        continue
                 s3_client = boto3.client(
                     "s3",
                     endpoint_url=S3_ENDPOINT,
@@ -89,7 +90,7 @@ def generate_potree(rdf, dataset_dir):
                 print("Potree file generated successfully: " + target_url)
 
 
-def generate_collection(potree=False):
+def generate_collection(potree=False, force=False):
     rdfs = []
     with open("collection.yaml", "rb") as f:
         collection = yaml.safe_load(f.read())
@@ -111,7 +112,7 @@ def generate_collection(potree=False):
         )
         rdf.update(item)
         if potree:
-            generate_potree(rdf, "datasets")
+            generate_potree(rdf, "datasets", force)
         summary = {k: v for k, v in rdf.items() if k in SUMMARY_FIELDS}
         rdfs.append(summary)
 
@@ -134,7 +135,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Process some integers.')
     parser.add_argument('--potree', action='store_true',
                         help='Convert to potree and upload')
+    parser.add_argument('--force', action='store_true',
+                        help='Force regenerate and upload')
 
     args = parser.parse_args()
     
-    generate_collection(args.potree)
+    generate_collection(potree=args.potree, force=args.force)
