@@ -151,7 +151,7 @@ collection:
   - cos7
   type: dataset
 - authors:
-  - affiliation: "University of Wuerzburg, W\xC3\xBCrzburg 97074, Germany"
+  - affiliation: "University of Wuerzburg, W\xFCrzburg 97074, Germany"
     name: Markus Sauer
   covers:
   - ./UniWue_Tubulin_AF647/screenshot-0_thumbnail.png
@@ -176,7 +176,7 @@ collection:
   - smlm
   type: dataset
 - authors:
-  - affiliation: "University of Wuerzburg, W\xC3\xBCrzburg 97074, Germany"
+  - affiliation: "University of Wuerzburg, W\xFCrzburg 97074, Germany"
     name: Markus Sauer
   covers:
   - ./X6069_Alexa532_Mikrotub_ZaK2_FL/screenshot-0_thumbnail.png
@@ -481,7 +481,7 @@ collection:
   type: dataset
 - authors:
   - affiliation: Imaging and Modeling Unit, Institut Pasteur, Paris, France
-    name: "Micka\xC3\xABl Lelek"
+    name: "Micka\xEBl Lelek"
   covers:
   - ./sample-1/screenshot-0_thumbnail.png
   - ./sample-1/screenshot-1_thumbnail.png
@@ -838,7 +838,7 @@ collection:
   - smlm
   type: dataset
 - authors:
-  - affiliation: "Aix Marseille Universit\xC3\xA9, CNRS, INP UMR7051, NeuroCyto, Marseille\
+  - affiliation: "Aix Marseille Universit\xE9, CNRS, INP UMR7051, NeuroCyto, Marseille\
       \ 13005, France"
     name: Christophe Leterrier
   covers:
@@ -1002,7 +1002,7 @@ collection:
   - smlm
   type: dataset
 - authors:
-  - affiliation: "University of Wuerzburg, W\xC3\xBCrzburg 97074, Germany"
+  - affiliation: "University of Wuerzburg, W\xFCrzburg 97074, Germany"
     name: Sarah Aufmkolk
   covers:
   - ./cos7_phalloidin-647_1-2/screenshot-0_thumbnail.png
@@ -1023,7 +1023,7 @@ collection:
   - smlm
   type: dataset
 - authors:
-  - affiliation: "University of Wuerzburg, W\xC3\xBCrzburg 97074, Germany"
+  - affiliation: "University of Wuerzburg, W\xFCrzburg 97074, Germany"
     name: Sarah Aufmkolk
   covers:
   - ./Cos7_cSiR_phalloidin/screenshot-0_thumbnail.png
@@ -1044,7 +1044,7 @@ collection:
   - alexa-647
   type: dataset
 - authors:
-  - affiliation: "University of Wuerzburg, W\xC3\xBCrzburg 97074, Germany"
+  - affiliation: "University of Wuerzburg, W\xFCrzburg 97074, Germany"
     name: Markus Sauer
   covers:
   - ./gp210_647_4/screenshot-0_thumbnail.png
@@ -1063,7 +1063,7 @@ collection:
   - smlm
   type: dataset
 - authors:
-  - affiliation: "University of Wuerzburg, W\xC3\xBCrzburg 97074, Germany"
+  - affiliation: "University of Wuerzburg, W\xFCrzburg 97074, Germany"
     name: Markus Sauer
   covers:
   - ./06_wga_ATTO520/screenshot-0_thumbnail.png
@@ -1083,7 +1083,7 @@ collection:
   - atto-520
   type: dataset
 - authors:
-  - affiliation: "University of Wuerzburg, W\xC3\xBCrzburg 97074, Germany"
+  - affiliation: "University of Wuerzburg, W\xFCrzburg 97074, Germany"
     name: Markus Sauer
   covers:
   - ./NPC_gp210-Alexa-647/screenshot-0_thumbnail.png
