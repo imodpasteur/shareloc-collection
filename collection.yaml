@@ -1,6 +1,10 @@
 authors:
 - name: ShareLoc.XYZ Team
 collection:
+- doi: 10.5281/zenodo.6611690
+  id: '6611689'
+  name: Zola-3D NUP full nucleus
+  rdf_source: https://zenodo.org/api/files/29593ef1-6a2c-47f2-8d6d-4041be5b7b30/rdf.yaml
 - doi: 10.5281/zenodo.5783066
   id: '5783065'
   name: Microtubules immuno-labeled with Alexa 647 CSV and raw data Cell035
