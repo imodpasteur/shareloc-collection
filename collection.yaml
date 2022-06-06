@@ -2,6 +2,25 @@ authors:
 - name: ShareLoc.XYZ Team
 collection:
 - authors:
+  - affiliation: institut pasteur
+    name: benoit lelandais
+  covers:
+  - ./sample-1/screenshot-0_thumbnail.png
+  description: Nuclear pores over the full nucleus
+  doi: 10.5281/zenodo.6611690
+  id: '6611689'
+  license: CC-BY-4.0
+  links: []
+  name: Zola-3D NUP full nucleus
+  rdf_source: https://zenodo.org/api/files/29593ef1-6a2c-47f2-8d6d-4041be5b7b30/rdf.yaml
+  tags:
+  - Alexa Fluor 647
+  - NUP133
+  - HeLa cell line
+  - zola-3d
+  - smlm
+  type: dataset
+- authors:
   - affiliation: Imaging and Modeling Unit, Institut Pasteur, Paris, France
     name: Manish Kumar Singh
   covers:
