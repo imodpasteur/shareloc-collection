@@ -40,6 +40,7 @@ def update_from_zenodo():
                 "doi": hit["doi"],
                 "rdf_source": sorted(rdf_urls)[0],
                 "name": hit["metadata"]["title"],
+                "owners": hit["owners"],
             }
             old_items = list(filter(lambda x: x["id"] == item["id"], items))
             if len(old_items) > 0:
@@ -49,7 +50,7 @@ def update_from_zenodo():
                     {
                         k: old_item[k]
                         for k in old_item
-                        if k not in ["id", "name", "rdf_source", "doi"]
+                        if k not in ["id", "name", "rdf_source", "doi", "owners"]
                     }
                 )
                 # Remove old item with the same id

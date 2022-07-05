@@ -39,6 +39,7 @@ SUMMARY_FIELDS = [
     "tags",
     "type",
     "doi",
+    "owners",
 ]
 
 
