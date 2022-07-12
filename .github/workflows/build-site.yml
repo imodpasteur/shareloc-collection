@@ -58,7 +58,7 @@ jobs:
         S3_ENDPOINT:  ${{ secrets.S3_ENDPOINT }}
         S3_KEY:  ${{ secrets.S3_KEY }}
         S3_SECRET:  ${{ secrets.S3_SECRET }}
-      run: python3 scripts/generate-collection.py --potree
+      run: python3 scripts/generate-collection.py --potree --csv
     - name: Save build output
       if: github.ref == 'refs/heads/main'
       uses: actions/upload-artifact@v1
