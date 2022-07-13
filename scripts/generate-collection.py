@@ -42,6 +42,7 @@ SUMMARY_FIELDS = [
     "type",
     "doi",
     "owners",
+    "conversions",
 ]
 
 
@@ -56,9 +57,13 @@ def convert_formats(rdf, dataset_dir, force=False, potree=False, csv=False):
         aws_access_key_id=S3_KEY,
         aws_secret_access_key=S3_SECRET,
     )
+    rdf["conversions"] = {}
     for sample in attachments["samples"]:
+        conversions = {}
+        rdf["conversions"][sample["name"]] = conversions
         for file in sample.get("files", []):
             if file["name"].endswith(".smlm"):
+                conversions[file["name"]] = {}
                 file_path = os.path.join(
                     dataset_dir, rdf["doi"], sample["name"], file["name"]
                 )
@@ -66,52 +71,85 @@ def convert_formats(rdf, dataset_dir, force=False, potree=False, csv=False):
                     os.path.join(dataset_dir, rdf["doi"], sample["name"]), exist_ok=True
                 )
                 sample_path = os.path.join(rdf["doi"], sample["name"])
-                
-                response = s3_client.list_objects(Bucket=S3_BUCKET, Prefix=S3_DATA_DIR + "/" + os.path.join(sample_path) + "/")
-                existing_files = [f['Key'] for f in response['Contents']]
+
+                response = s3_client.list_objects(
+                    Bucket=S3_BUCKET,
+                    Prefix=S3_DATA_DIR + "/" + os.path.join(sample_path) + "/",
+                )
+                existing_files = [f["Key"] for f in response["Contents"]]
                 if potree:
-                    potree_files = sorted([f for f in existing_files if f.endswith(".potree.zip")])
+                    potree_files = sorted(
+                        [
+                            os.path.basename(f)
+                            for f in existing_files
+                            if f.endswith(".potree.zip")
+                        ]
+                    )
                     if not potree_files or force:
                         if not os.path.exists(file_path):
                             # download the file
                             download_url(
-                                resolve_url(rdf_url, sample["name"] + "/" + file["name"]),
+                                resolve_url(
+                                    rdf_url, sample["name"] + "/" + file["name"]
+                                ),
                                 file_path,
                             )
                         print("Converting " + file_path + " to potree...")
                         files = convert_potree(file_path, True)
                         potree_files = []
                         for potree_file_path in files:
-                            object_name = S3_DATA_DIR + "/" + os.path.join(sample_path, os.path.basename(potree_file_path))
+                            object_name = (
+                                S3_DATA_DIR
+                                + "/"
+                                + os.path.join(
+                                    sample_path, os.path.basename(potree_file_path)
+                                )
+                            )
                             print("Uploading " + potree_file_path + " to s3...")
-                            s3_client.upload_file(potree_file_path, S3_BUCKET, object_name)
+                            s3_client.upload_file(
+                                potree_file_path, S3_BUCKET, object_name
+                            )
                             print("potree file uploaded successfully")
                             os.remove(potree_file_path)
-                            potree_files.append(object_name)
-                    file['potree'] = potree_files
+                            potree_files.append(os.path.basename(object_name))
+
+                    conversions[file["name"]]["potree"] = potree_files
                 if csv:
-                    csv_files = sorted([f for f in existing_files if f.endswith(".csv")])
+                    csv_files = sorted(
+                        [
+                            os.path.basename(f)
+                            for f in existing_files
+                            if f.endswith(".csv")
+                        ]
+                    )
                     if not csv_files or force:
                         if not os.path.exists(file_path):
                             # download the file
                             download_url(
-                                resolve_url(rdf_url, sample["name"] + "/" + file["name"]),
+                                resolve_url(
+                                    rdf_url, sample["name"] + "/" + file["name"]
+                                ),
                                 file_path,
                             )
                         print("Converting " + file_path + " to csv...")
                         files = convert_smlm(file_path, delimiter=",", extension=".csv")
                         csv_files = []
                         for csv_file_path in files:
-                            object_name = S3_DATA_DIR + "/" + os.path.join(sample_path, os.path.basename(csv_file_path))
+                            object_name = (
+                                S3_DATA_DIR
+                                + "/"
+                                + os.path.join(
+                                    sample_path, os.path.basename(csv_file_path)
+                                )
+                            )
                             print("Uploading " + csv_file_path + " to s3...")
                             s3_client.upload_file(csv_file_path, S3_BUCKET, object_name)
                             print("csv file uploaded successfully")
                             os.remove(csv_file_path)
-                            csv_files.append(object_name)
-                    file['csv'] = csv_files
+                            csv_files.append(os.path.basename(object_name))
+                    conversions[file["name"]]["csv"] = csv_files
                 # Remove the folder
                 shutil.rmtree(os.path.join(dataset_dir, rdf["doi"]))
-                
 
 
 def generate_collection(potree=False, csv=False, force=False):
@@ -143,7 +181,7 @@ def generate_collection(potree=False, csv=False, force=False):
     print(f"Generating collection.json for {len(rdfs)} items...")
 
     def sort_by_id(x):
-        return -int(x['id'])
+        return -int(x["id"])
 
     rdfs.sort(key=sort_by_id)
 
@@ -153,17 +191,19 @@ def generate_collection(potree=False, csv=False, force=False):
     with open("dist/collection.yaml", "wb") as f:
         f.write(yaml.dump(collection, encoding="utf-8"))
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     import argparse
 
-    parser = argparse.ArgumentParser(description='Process some integers.')
-    parser.add_argument('--potree', action='store_true',
-                        help='Convert to potree and upload')
-    parser.add_argument('--csv', action='store_true',
-                        help='Convert to csv and upload')
-    parser.add_argument('--force', action='store_true',
-                        help='Force regenerate and upload')
+    parser = argparse.ArgumentParser(description="Process some integers.")
+    parser.add_argument(
+        "--potree", action="store_true", help="Convert to potree and upload"
+    )
+    parser.add_argument("--csv", action="store_true", help="Convert to csv and upload")
+    parser.add_argument(
+        "--force", action="store_true", help="Force regenerate and upload"
+    )
 
     args = parser.parse_args()
-    
+
     generate_collection(potree=args.potree, csv=args.csv, force=args.force)
