@@ -1,6 +1,18 @@
 authors:
 - name: ShareLoc.XYZ Team
 collection:
+- doi: 10.5281/zenodo.6948554
+  id: '6948553'
+  name: Microtubule stained in alexa 647 treated with 1 um of Nocodazole
+  owners:
+  - 240881
+  rdf_source: https://zenodo.org/api/files/31c845bb-31a9-4ee6-8886-4524bdf428a0/rdf.yaml
+- doi: 10.5281/zenodo.6861446
+  id: '6861445'
+  name: ZOLA-3D microtubules
+  owners:
+  - 354398
+  rdf_source: https://zenodo.org/api/files/03670762-8fc2-4e39-91f7-f92a74138f96/rdf.yaml
 - doi: 10.5281/zenodo.6611690
   id: '6611689'
   name: Zola-3D NUP full nucleus
