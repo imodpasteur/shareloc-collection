@@ -76,7 +76,7 @@ def convert_formats(rdf, dataset_dir, force=False, potree=False, csv=False):
                     Bucket=S3_BUCKET,
                     Prefix=S3_DATA_DIR + "/" + os.path.join(sample_path) + "/",
                 )
-                existing_files = [f["Key"] for f in response["Contents"]]
+                existing_files = [f["Key"] for f in response["Contents"]] if "Contents" in response else []
                 if potree:
                     potree_files = sorted(
                         [
