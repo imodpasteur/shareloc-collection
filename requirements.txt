@@ -1,5 +1,5 @@
 requests
 pyyaml
 tqdm
-shareloc-utils[potree]
+shareloc-utils[potree]>=0.1.9
 boto3
