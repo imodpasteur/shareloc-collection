@@ -1,6 +1,20 @@
 authors:
 - name: ShareLoc.XYZ Team
 collection:
+- doi: 10.5281/zenodo.7023414
+  id: '7023168'
+  name: 'DBlink: Dynamic localization microscopy in super spatiotemporal resolution
+    via deep learning'
+  owners:
+  - 262377
+  rdf_source: https://zenodo.org/api/files/063b0e9f-2376-4047-a993-cd932c082792/rdf.yaml
+- doi: 10.5281/zenodo.6973903
+  id: '6973902'
+  name: Microtubles stained in Alexa 647 and incubated in 1 uM of Nocodazole for 20
+    min
+  owners:
+  - 219707
+  rdf_source: https://zenodo.org/api/files/10e5df60-2ecf-4aab-9c28-f6da282577c1/rdf.yaml
 - doi: 10.5281/zenodo.6948554
   id: '6948553'
   name: Microtubule stained in alexa 647 treated with 1 um of Nocodazole
