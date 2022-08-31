@@ -1,4 +1,5 @@
 import requests
+import urllib.parse
 
 import yaml
 import json
@@ -90,7 +91,7 @@ def convert_formats(rdf, dataset_dir, force=False, potree=False, csv=False):
                             # download the file
                             download_url(
                                 resolve_url(
-                                    rdf_url, sample["name"] + "/" + file["name"]
+                                    rdf_url, urllib.parse.quote(sample["name"]) + "/" + urllib.parse.quote(file["name"])
                                 ),
                                 file_path,
                             )
@@ -127,7 +128,7 @@ def convert_formats(rdf, dataset_dir, force=False, potree=False, csv=False):
                             # download the file
                             download_url(
                                 resolve_url(
-                                    rdf_url, sample["name"] + "/" + file["name"]
+                                    rdf_url, urllib.parse.quote(sample["name"]) + "/" + urllib.parse.quote(file["name"])
                                 ),
                                 file_path,
                             )
