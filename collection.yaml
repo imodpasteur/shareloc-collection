@@ -69,12 +69,12 @@ collection:
   owners:
   - 240881
   rdf_source: https://zenodo.org/api/files/cd238beb-d669-407b-a6b8-f514af64e82e/rdf.yaml
-- doi: 10.5281/zenodo.5513608
+- doi: 10.5281/zenodo.7152725
   id: '5513607'
   name: Microtubules of U2OS cells
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/48a8996a-e9ef-49d8-be2b-25026c3c5dbd/rdf.yaml
+  rdf_source: https://zenodo.org/api/files/5c665e87-a79e-4d8f-8a9f-c4473c3a1881/rdf.yaml
 - doi: 10.5281/zenodo.5513504
   id: '5513503'
   name: Microtubules of COS7 cells stained with Alexa 532
