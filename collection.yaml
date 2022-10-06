@@ -540,14 +540,14 @@ collection:
   - ./UniWue_Tubulin_AF647_4/screenshot-2_thumbnail.png
   description: Microtubules (beta-tubulin) stained with AlexaFluor647 by indirect
     immunolabeling in U2OS cells
-  doi: 10.5281/zenodo.5513608
+  doi: 10.5281/zenodo.7152725
   id: '5513607'
   license: CC-BY-4.0
   links: []
   name: Microtubules of U2OS cells
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/48a8996a-e9ef-49d8-be2b-25026c3c5dbd/rdf.yaml
+  rdf_source: https://zenodo.org/api/files/5c665e87-a79e-4d8f-8a9f-c4473c3a1881/rdf.yaml
   tags:
   - microtubules
   - u2os
