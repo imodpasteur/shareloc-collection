@@ -2467,7 +2467,7 @@ collection:
   type: dataset
 - authors:
   - affiliation: "University of Wuerzburg, W\xFCrzburg 97074, Germany"
-    name: Sarah Aufmkolk
+    name: Teresa Klein
   conversions:
     Cos7_cSiR_phalloidin:
       data.smlm:
@@ -2479,14 +2479,14 @@ collection:
   - ./Cos7_cSiR_phalloidin/screenshot-0_thumbnail.png
   - ./Cos7_cSiR_phalloidin/screenshot-1_thumbnail.png
   description: actin of Cos-7 cell stained with phalloidin Alexa647
-  doi: 10.5281/zenodo.5512657
+  doi: 10.5281/zenodo.7153139
   id: '5506623'
   license: CC-BY-4.0
   links: []
-  name: Actin with PhalloidinAF647 in COS7 part 2
+  name: Phalloidin with caged silicon rhodamine
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/82787b5b-1a10-405e-b11f-c67c2be4ba7f/rdf.yaml
+  rdf_source: https://zenodo.org/api/files/206aa3d1-701f-4480-a305-24c7a56a8918/rdf.yaml
   tags:
   - actin
   - cos7
@@ -2508,14 +2508,14 @@ collection:
   covers:
   - ./gp210_647_4/screenshot-0_thumbnail.png
   description: Xenopus laevis nuclear pore complex; gp210 proteins stained with Alexa647
-  doi: 10.5281/zenodo.5512623
+  doi: 10.5281/zenodo.7153153
   id: '5504141'
   license: CC-BY-4.0
   links: []
   name: gp210 proteins of Xenopus laevis nuclear pore complex stained with Alexa647
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/3402bc36-e846-4ebc-841f-12786832e830/rdf.yaml
+  rdf_source: https://zenodo.org/api/files/050baa1c-f14a-4b9c-904a-e38ba1e28273/rdf.yaml
   tags:
   - dstorm
   - nuclear-pore-complex
