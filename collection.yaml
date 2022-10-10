@@ -69,18 +69,18 @@ collection:
   owners:
   - 240881
   rdf_source: https://zenodo.org/api/files/cd238beb-d669-407b-a6b8-f514af64e82e/rdf.yaml
-- doi: 10.5281/zenodo.7152725
+- doi: 10.5281/zenodo.7182242
   id: '5513607'
   name: Microtubules of U2OS cells
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/5c665e87-a79e-4d8f-8a9f-c4473c3a1881/rdf.yaml
-- doi: 10.5281/zenodo.5513504
+  rdf_source: https://zenodo.org/api/files/9f99f237-8577-49ce-b508-2fbfa92bb289/rdf.yaml
+- doi: 10.5281/zenodo.7182290
   id: '5513503'
   name: Microtubules of COS7 cells stained with Alexa 532
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/968862f4-87e8-4b08-89e4-b302a2d17a74/rdf.yaml
+  rdf_source: https://zenodo.org/api/files/ffe67238-ea83-46a2-8ed5-2d26c7a5f435/rdf.yaml
 - doi: 10.5281/zenodo.5512818
   id: '5512817'
   name: Microtubules in COS7 cells part 2
@@ -261,12 +261,12 @@ collection:
   owners:
   - 240881
   rdf_source: https://zenodo.org/api/files/a5207aec-95fe-41dc-9741-7bf01f206722/rdf.yaml
-- doi: 10.5281/zenodo.5510226
+- doi: 10.5281/zenodo.7182237
   id: '5504124'
   name: Xenopus laevis nuclear pore complex stained with WGA-ATTO520
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/7a4de411-de28-4f9b-b437-34d2bee054d4/rdf.yaml
+  rdf_source: https://zenodo.org/api/files/b7ea89b8-3204-45fb-b0a1-39c7150030b5/rdf.yaml
 - doi: 10.5281/zenodo.7182227
   id: '5504101'
   name: gp210 proteins of nuclear pore complex stained with alexa647
