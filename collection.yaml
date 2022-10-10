@@ -255,24 +255,24 @@ collection:
   owners:
   - 240881
   rdf_source: https://zenodo.org/api/files/206aa3d1-701f-4480-a305-24c7a56a8918/rdf.yaml
-- doi: 10.5281/zenodo.7182137
+- doi: 10.5281/zenodo.7182224
   id: '5504141'
   name: gp210 proteins of Xenopus laevis nuclear pore complex stained with Alexa647
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/2d187cf8-5ddc-412b-b9e3-703728179016/rdf.yaml
+  rdf_source: https://zenodo.org/api/files/a5207aec-95fe-41dc-9741-7bf01f206722/rdf.yaml
 - doi: 10.5281/zenodo.5510226
   id: '5504124'
   name: Xenopus laevis nuclear pore complex stained with WGA-ATTO520
   owners:
   - 240881
   rdf_source: https://zenodo.org/api/files/7a4de411-de28-4f9b-b437-34d2bee054d4/rdf.yaml
-- doi: 10.5281/zenodo.7182128
+- doi: 10.5281/zenodo.7182227
   id: '5504101'
   name: gp210 proteins of nuclear pore complex stained with alexa647
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/c8730fdc-47e7-4ac3-9dfb-6bc8b80fd3a3/rdf.yaml
+  rdf_source: https://zenodo.org/api/files/3644adf9-da12-4211-9127-4fa3ce8ca86b/rdf.yaml
 - doi: 10.5281/zenodo.5507634
   id: '5503926'
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 15-19
