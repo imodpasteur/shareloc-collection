@@ -2497,7 +2497,7 @@ collection:
   type: dataset
 - authors:
   - affiliation: "University of Wuerzburg, W\xFCrzburg 97074, Germany"
-    name: Markus Sauer
+    name: Markus Sauer lab
   conversions:
     gp210_647_4:
       data.smlm:
@@ -2508,14 +2508,14 @@ collection:
   covers:
   - ./gp210_647_4/screenshot-0_thumbnail.png
   description: Xenopus laevis nuclear pore complex; gp210 proteins stained with Alexa647
-  doi: 10.5281/zenodo.7153153
+  doi: 10.5281/zenodo.7182137
   id: '5504141'
   license: CC-BY-4.0
   links: []
   name: gp210 proteins of Xenopus laevis nuclear pore complex stained with Alexa647
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/050baa1c-f14a-4b9c-904a-e38ba1e28273/rdf.yaml
+  rdf_source: https://zenodo.org/api/files/2d187cf8-5ddc-412b-b9e3-703728179016/rdf.yaml
   tags:
   - dstorm
   - nuclear-pore-complex
@@ -2554,7 +2554,7 @@ collection:
   type: dataset
 - authors:
   - affiliation: "University of Wuerzburg, W\xFCrzburg 97074, Germany"
-    name: Markus Sauer
+    name: Markus Sauer lab
   conversions:
     06_gp210_Alexa647:
       data.smlm:
@@ -2579,14 +2579,14 @@ collection:
   - ./NPC_05_gp210_AF647/screenshot-1_thumbnail.png
   - ./06_gp210_Alexa647/screenshot-2_thumbnail.png
   description: gp210 proteins of the nuclear pore complex stained with Alexa647
-  doi: 10.5281/zenodo.5506652
+  doi: 10.5281/zenodo.7182128
   id: '5504101'
   license: CC-BY-4.0
   links: []
   name: gp210 proteins of nuclear pore complex stained with alexa647
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/de50a4db-81f0-4b93-be3f-706376caf355/rdf.yaml
+  rdf_source: https://zenodo.org/api/files/c8730fdc-47e7-4ac3-9dfb-6bc8b80fd3a3/rdf.yaml
   tags:
   - gp210
   - nuclear-pore-complex
