@@ -1,36 +1,6 @@
 authors:
 - name: ShareLoc.XYZ Team
-collection:
-- authors:
-  - affiliation: MRI, BioCampus Montpellier, CRBM, Univ. Montpellier, CNRS, Montpellier,
-      France
-    name: Orestis Faklaris
-  conversions:
-    wga_A647:
-      data.smlm:
-        csv:
-        - data.csv
-        potree:
-        - data.potree.zip
-  covers:
-  - ./wga_A647/screenshot-0_thumbnail.png
-  - ./wga_A647/screenshot-1_thumbnail.png
-  description: dSTORM of central canal of Xenopus nuclear pore complex
-  doi: 10.5281/zenodo.5512732
-  id: '5507073'
-  license: CC-BY-4.0
-  links: []
-  name: central canal of Xenopus nuclear pore complex
-  owners:
-  - 240881
-  rdf_source: https://zenodo.org/api/files/36f0d831-f41b-4b14-92c7-6c502019e52b/rdf.yaml
-  tags:
-  - dstorm
-  - wga
-  - nuclear-pore-complex
-  - alexa-647
-  - smlm
-  type: dataset
+collection: []
 description: ShareLoc.XYZ collection RDF
 documentation: README.md
 format_version: 0.2.1
