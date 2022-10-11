@@ -255,12 +255,12 @@ collection:
   owners:
   - 240881
   rdf_source: https://zenodo.org/api/files/206aa3d1-701f-4480-a305-24c7a56a8918/rdf.yaml
-- doi: 10.5281/zenodo.7182224
+- doi: 10.5281/zenodo.7185997
   id: '5504141'
   name: gp210 proteins of Xenopus laevis nuclear pore complex stained with Alexa647
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/a5207aec-95fe-41dc-9741-7bf01f206722/rdf.yaml
+  rdf_source: https://zenodo.org/api/files/256fdef5-4181-4935-beb9-f9c29b169cea/rdf.yaml
 - doi: 10.5281/zenodo.7182237
   id: '5504124'
   name: Xenopus laevis nuclear pore complex stained with WGA-ATTO520
