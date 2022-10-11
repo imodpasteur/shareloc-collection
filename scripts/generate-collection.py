@@ -89,13 +89,15 @@ def convert_formats(rdf, dataset_dir, force=False, potree=False, csv=False):
                     if not potree_files or force:
                         if not os.path.exists(file_path):
                             # download the file
+                            url = resolve_url(
+                                rdf_url, urllib.parse.quote(sample["name"]) + "/" + urllib.parse.quote(file["name"])
+                            )
+                            print("Downloading file from " + url)
                             download_url(
-                                resolve_url(
-                                    rdf_url, urllib.parse.quote(sample["name"]) + "/" + urllib.parse.quote(file["name"])
-                                ),
+                                url,
                                 file_path,
                             )
-                        print("Converting " + file_path + " to potree...")
+                        print(f"Converting {rdf['id']}({file_path}) to potree...")
                         files = convert_potree(file_path, True)
                         potree_files = []
                         for potree_file_path in files:
@@ -126,13 +128,15 @@ def convert_formats(rdf, dataset_dir, force=False, potree=False, csv=False):
                     if not csv_files or force:
                         if not os.path.exists(file_path):
                             # download the file
+                            url = resolve_url(
+                                rdf_url, urllib.parse.quote(sample["name"]) + "/" + urllib.parse.quote(file["name"])
+                            )
+                            print("Downloading file from " + url)
                             download_url(
-                                resolve_url(
-                                    rdf_url, urllib.parse.quote(sample["name"]) + "/" + urllib.parse.quote(file["name"])
-                                ),
+                                url,
                                 file_path,
                             )
-                        print("Converting " + file_path + " to csv...")
+                        print(f"Converting {rdf['id']}({file_path}) to csv...")
                         files = convert_smlm(file_path, delimiter=",", extension=".csv")
                         csv_files = []
                         for csv_file_path in files:
@@ -186,6 +190,7 @@ def generate_collection(potree=False, csv=False, force=False):
 
     rdfs.sort(key=sort_by_id)
 
+    assert len(rdfs) > 0
     collection["collection"] = rdfs
     os.makedirs("dist", exist_ok=True)
     json.dump(collection, open("dist/collection.json", "w"))
