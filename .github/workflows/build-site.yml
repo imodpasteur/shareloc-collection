@@ -42,6 +42,7 @@ jobs:
         committer: ShareLoc.XYZ <shareloc@pasteur>
         author: ShareLoc.XYZ <shareloc@pasteur>
         signoff: false
+        token: ${{ secrets.PAT }} # allow triggering CI
         branch: update-collection
         delete-branch: true
         title: 'Update ShareLoc.XYZ Collection'
