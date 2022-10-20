@@ -73,15 +73,15 @@ collection:
   - ./sample-1/screenshot-1_thumbnail.png
   description: Alpha-tubulin immuno-labeled with Alexa 647 in U2OS cells treated with
     1 um of Nocodazole for 20 min
-  doi: 10.5281/zenodo.6973903
+  doi: 10.5281/zenodo.7231345
   id: '6973902'
   license: CC-BY-4.0
   links: []
-  name: Microtubles stained in Alexa 647 and incubated in 1 uM of Nocodazole for 20
-    min
+  name: Microtubules stained in Alexa 647 and incubated in 1 uM of Nocodazole for
+    20 min
   owners:
   - 219707
-  rdf_source: https://zenodo.org/api/files/10e5df60-2ecf-4aab-9c28-f6da282577c1/rdf.yaml
+  rdf_source: https://zenodo.org/api/files/9a3fe3b0-a434-4047-85da-2a138a65aabe/rdf.yaml
   tags:
   - U2OS
   - microtubule
