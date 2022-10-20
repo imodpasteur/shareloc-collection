@@ -1,6 +1,12 @@
 authors:
 - name: ShareLoc.XYZ Team
 collection:
+- doi: 10.5281/zenodo.7225217
+  id: '7225216'
+  name: vimentin immunolabeled with DNA-PAINT Antibodies
+  owners:
+  - 427385
+  rdf_source: https://zenodo.org/api/files/75bd6a02-77e0-4e8a-bb19-5f32a99bd9ad/rdf.yaml
 - doi: 10.5281/zenodo.7023414
   id: '7023168'
   name: 'DBlink: Dynamic localization microscopy in super spatiotemporal resolution
