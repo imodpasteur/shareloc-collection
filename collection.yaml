@@ -2,6 +2,34 @@ authors:
 - name: ShareLoc.XYZ Team
 collection:
 - authors:
+  - name: "Micka\xEBl LELEK"
+  conversions:
+    sample-1:
+      data.smlm:
+        csv:
+        - data.csv
+        potree:
+        - data.potree.zip
+  covers:
+  - ./sample-1/screenshot-0_thumbnail.png
+  description: Vimentin in MEF cells
+  doi: 10.5281/zenodo.7225217
+  id: '7225216'
+  license: CC-BY-4.0
+  links: []
+  name: vimentin immunolabeled with DNA-PAINT Antibodies
+  owners:
+  - 427385
+  rdf_source: https://zenodo.org/api/files/75bd6a02-77e0-4e8a-bb19-5f32a99bd9ad/rdf.yaml
+  tags:
+  - dna-paint
+  - mef
+  - Cy5
+  - vimentin
+  - Secondary-antibody-against-rabbit-Cy5
+  - smlm
+  type: dataset
+- authors:
   - affiliation: The Technion - Israel Institute of Technology
     name: Alon Saguy
   conversions:
