@@ -2,6 +2,136 @@ authors:
 - name: ShareLoc.XYZ Team
 collection:
 - authors:
+  - affiliation: Imaging and Modeling Unit, Institut Pasteur, France
+    name: Manish SINGH
+  conversions:
+    cell-10:
+      data.smlm:
+        csv:
+        - data.csv
+        potree:
+        - data.potree.zip
+    cell-11:
+      data.smlm:
+        csv:
+        - data.csv
+        potree:
+        - data.potree.zip
+    cell-12:
+      data.smlm:
+        csv:
+        - data.csv
+        potree:
+        - data.potree.zip
+    cell-13:
+      data.smlm:
+        csv:
+        - data.csv
+        potree:
+        - data.potree.zip
+    cell-14:
+      data.smlm:
+        csv:
+        - data.csv
+        potree:
+        - data.potree.zip
+    cell-8:
+      data.smlm:
+        csv:
+        - data.csv
+        potree:
+        - data.potree.zip
+    cell-9:
+      data.smlm:
+        csv:
+        - data.csv
+        potree:
+        - data.potree.zip
+  covers:
+  - ./cell-8/screenshot-0_thumbnail.png
+  - ./cell-9/screenshot-1_thumbnail.png
+  - ./cell-10/screenshot-2_thumbnail.png
+  - ./cell-11/screenshot-3_thumbnail.png
+  - ./cell-12/screenshot-4_thumbnail.png
+  - ./cell-13/screenshot-5_thumbnail.png
+  - ./cell-14/screenshot-6_thumbnail.png
+  description: Alpha-tubulin immuno-labeled with Alexa 647 in U2OS cells treated with
+    1 um of Nocodazole for 20 min
+  doi: 10.5281/zenodo.7234161
+  id: '7234160'
+  license: CC-BY-4.0
+  links: []
+  name: Microtubules stained with Alexa 647 and incubated Nocodazole cell08-cell14
+  owners:
+  - 240881
+  rdf_source: https://zenodo.org/api/files/0d7b0d10-0503-416f-9a64-6fc553c041a4/rdf.yaml
+  tags:
+  - microtubules
+  - u2os
+  - nocodazole
+  - dstorm
+  - Alexa Fluor 647
+  - smlm
+  type: dataset
+- authors:
+  - affiliation: Imaging and Modeling Unit, Institut Pasteur, France
+    name: Manish SINGH
+  conversions:
+    cell-3:
+      data.smlm:
+        csv:
+        - data.csv
+        potree:
+        - data.potree.zip
+    cell-4:
+      data.smlm:
+        csv:
+        - data.csv
+        potree:
+        - data.potree.zip
+    cell-5:
+      data.smlm:
+        csv:
+        - data.csv
+        potree:
+        - data.potree.zip
+    cell-6:
+      data.smlm:
+        csv:
+        - data.csv
+        potree:
+        - data.potree.zip
+    cell-7:
+      data.smlm:
+        csv:
+        - data.csv
+        potree:
+        - data.potree.zip
+  covers:
+  - ./cell-3/screenshot-0_thumbnail.png
+  - ./cell-4/screenshot-1_thumbnail.png
+  - ./cell-5/screenshot-2_thumbnail.png
+  - ./cell-6/screenshot-3_thumbnail.png
+  - ./cell-7/screenshot-4_thumbnail.png
+  description: Alpha-tubulin immuno-labeled with Alexa 647 in U2OS cells treated with
+    1 um of Nocodazole for 20 min
+  doi: 10.5281/zenodo.7233950
+  id: '7233949'
+  license: CC-BY-4.0
+  links: []
+  name: Microtubules stained with Alexa 647 and incubated Nocodazole cell03-cell07
+  owners:
+  - 240881
+  rdf_source: https://zenodo.org/api/files/6b311450-d4ef-4e24-ad08-c4cd5c230080/rdf.yaml
+  tags:
+  - dstorm
+  - u2os
+  - nocodazole
+  - Alexa Fluor 647
+  - microtubules
+  - smlm
+  type: dataset
+- authors:
   - name: "Micka\xEBl LELEK"
   conversions:
     sample-1:
