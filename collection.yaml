@@ -155,7 +155,7 @@ collection:
   type: dataset
 - authors:
   - affiliation: institut pasteur
-    name: benoit lelandais
+    name: Andrey Aristov
   conversions:
     sample-1:
       data.smlm:
@@ -166,14 +166,14 @@ collection:
   covers:
   - ./sample-1/screenshot-0_thumbnail.png
   description: Nuclear pores over the full nucleus
-  doi: 10.5281/zenodo.6611690
+  doi: 10.5281/zenodo.7233696
   id: '6611689'
   license: CC-BY-4.0
   links: []
   name: Zola-3D NUP full nucleus
   owners:
   - 354398
-  rdf_source: https://zenodo.org/api/files/29593ef1-6a2c-47f2-8d6d-4041be5b7b30/rdf.yaml
+  rdf_source: https://zenodo.org/api/files/35546133-6092-41e0-9937-cd78f94e57af/rdf.yaml
   tags:
   - Alexa Fluor 647
   - NUP133
