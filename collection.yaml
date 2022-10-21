@@ -1,6 +1,18 @@
 authors:
 - name: ShareLoc.XYZ Team
 collection:
+- doi: 10.5281/zenodo.7234161
+  id: '7234160'
+  name: Microtubules stained with Alexa 647 and incubated Nocodazole cell08-cell14
+  owners:
+  - 240881
+  rdf_source: https://zenodo.org/api/files/0d7b0d10-0503-416f-9a64-6fc553c041a4/rdf.yaml
+- doi: 10.5281/zenodo.7233950
+  id: '7233949'
+  name: Microtubules stained with Alexa 647 and incubated Nocodazole cell03-cell07
+  owners:
+  - 240881
+  rdf_source: https://zenodo.org/api/files/6b311450-d4ef-4e24-ad08-c4cd5c230080/rdf.yaml
 - doi: 10.5281/zenodo.7225217
   id: '7225216'
   name: vimentin immunolabeled with DNA-PAINT Antibodies
