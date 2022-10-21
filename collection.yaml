@@ -33,12 +33,12 @@ collection:
   owners:
   - 354398
   rdf_source: https://zenodo.org/api/files/03670762-8fc2-4e39-91f7-f92a74138f96/rdf.yaml
-- doi: 10.5281/zenodo.6611690
+- doi: 10.5281/zenodo.7233696
   id: '6611689'
   name: Zola-3D NUP full nucleus
   owners:
   - 354398
-  rdf_source: https://zenodo.org/api/files/29593ef1-6a2c-47f2-8d6d-4041be5b7b30/rdf.yaml
+  rdf_source: https://zenodo.org/api/files/35546133-6092-41e0-9937-cd78f94e57af/rdf.yaml
 - doi: 10.5281/zenodo.5783066
   id: '5783065'
   name: Microtubules immuno-labeled with Alexa 647 CSV and raw data Cell035
