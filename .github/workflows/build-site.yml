@@ -62,7 +62,7 @@ jobs:
       with:
         python-version: '3.8'
         cache: 'pip'
-    - run: pip install -r requirements.txt
+    - run: pip install --use-pep517 -r requirements.txt
     - name: Generate collection
       env:
         S3_ENDPOINT:  ${{ secrets.S3_ENDPOINT }}
