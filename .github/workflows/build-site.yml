@@ -62,7 +62,8 @@ jobs:
       with:
         python-version: '3.8'
         cache: 'pip'
-    - run: pip install --use-pep517 -r requirements.txt
+    - run: python -m pip install pip==22.2 # force pip version for pypotree
+    - run: pip install -r requirements.txt
     - name: Generate collection
       env:
         S3_ENDPOINT:  ${{ secrets.S3_ENDPOINT }}
