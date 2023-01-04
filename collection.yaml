@@ -2,6 +2,59 @@ authors:
 - name: ShareLoc.XYZ Team
 collection:
 - authors:
+  - affiliation: Cambridge University
+    name: Madeleine Ball
+    orcid: 0000-0002-6150-0485
+  conversions:
+    Figure 1C and 3B: {}
+    Figure 2A 5B and 5C: {}
+    Figure 2B: {}
+    Figure 2C and 5A: {}
+    Figure 2D and 3E: {}
+    Figure 5D: {}
+    Figure 7 D: {}
+    Figure 7A and 7B: {}
+    Figure 7C: {}
+    Figure 8A 8B and 8D: {}
+    Figure 8C: {}
+    Figure 9A and 9C: {}
+    Figure 9B and 9D: {}
+  covers:
+  - ./Figure 1C and 3B/screenshot-0_thumbnail.png
+  - ./Figure 2A 5B and 5C/screenshot-1_thumbnail.png
+  - ./Figure 2B/screenshot-2_thumbnail.png
+  - ./Figure 2C and 5A/screenshot-3_thumbnail.png
+  - ./Figure 2D and 3E/screenshot-4_thumbnail.png
+  - ./Figure 5D/screenshot-5_thumbnail.png
+  - ./Figure 7A and 7B/screenshot-6_thumbnail.png
+  - ./Figure 7C/screenshot-7_thumbnail.png
+  - ./Figure 7 D/screenshot-8_thumbnail.png
+  - ./Figure 8A 8B and 8D/screenshot-9_thumbnail.png
+  - ./Figure 8C/screenshot-10_thumbnail.png
+  description: Chromatin and RPII in Primary Spermatocytes of Drosophila melanogaster
+  doi: 10.5281/zenodo.7501960
+  id: '7501959'
+  license: CC-BY-4.0
+  links: []
+  name: The anatomy of transcriptionally active chromatin loops in Drosophila primary
+    spermatocytes using super-resolution microscopy
+  owners:
+  - 455690
+  rdf_source: https://zenodo.org/api/files/e6f769da-1505-4134-a159-572eb2c0c9d8/rdf.yaml
+  tags:
+  - storm
+  - Histones
+  - alexa-647
+  - alexa-568
+  - Pyranose oxidase buffer
+  - drosophila primary spermatocytes
+  - Y loops
+  - smlm
+  - chromatin
+  - polymerase
+  - transcription
+  type: dataset
+- authors:
   - affiliation: Imaging and Modeling Unit, Institut Pasteur, France
     name: Manish SINGH
   conversions:
