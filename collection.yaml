@@ -1,6 +1,13 @@
 authors:
 - name: ShareLoc.XYZ Team
 collection:
+- doi: 10.5281/zenodo.7501960
+  id: '7501959'
+  name: The anatomy of transcriptionally active chromatin loops in Drosophila primary
+    spermatocytes using super-resolution microscopy
+  owners:
+  - 455690
+  rdf_source: https://zenodo.org/api/files/e6f769da-1505-4134-a159-572eb2c0c9d8/rdf.yaml
 - doi: 10.5281/zenodo.7234161
   id: '7234160'
   name: Microtubules stained with Alexa 647 and incubated Nocodazole cell08-cell14
