@@ -225,7 +225,7 @@ collection:
   covers:
   - ./Microtubules - global rotation/screenshot-0_thumbnail.png
   description: Recorded SMLM data used in DBlink paper
-  doi: 10.5281/zenodo.7023414
+  doi: 10.5281/zenodo.7871960
   id: '7023168'
   license: CC-BY-4.0
   links: []
@@ -233,7 +233,7 @@ collection:
     via deep learning'
   owners:
   - 262377
-  rdf_source: https://zenodo.org/api/files/063b0e9f-2376-4047-a993-cd932c082792/rdf.yaml
+  rdf_source: https://zenodo.org/api/files/ba73270b-bece-4cd6-bd1b-11d8d04f920d/rdf.yaml
   tags:
   - storm
   - cos7
