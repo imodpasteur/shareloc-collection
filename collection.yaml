@@ -26,13 +26,13 @@ collection:
   owners:
   - 427385
   rdf_source: https://zenodo.org/api/files/75bd6a02-77e0-4e8a-bb19-5f32a99bd9ad/rdf.yaml
-- doi: 10.5281/zenodo.7023414
+- doi: 10.5281/zenodo.7871960
   id: '7023168'
   name: 'DBlink: Dynamic localization microscopy in super spatiotemporal resolution
     via deep learning'
   owners:
   - 262377
-  rdf_source: https://zenodo.org/api/files/063b0e9f-2376-4047-a993-cd932c082792/rdf.yaml
+  rdf_source: https://zenodo.org/api/files/ba73270b-bece-4cd6-bd1b-11d8d04f920d/rdf.yaml
 - doi: 10.5281/zenodo.7231345
   id: '6973902'
   name: Microtubules stained in Alexa 647 and incubated in 1 uM of Nocodazole for
