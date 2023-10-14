@@ -9,7 +9,7 @@ def update_from_zenodo():
     old_dois = [item["doi"] for item in items]
     new_dois = []
     for page in range(1, 1000):
-        zenodo_request = f"https://zenodo.org/api/records/?&sort=mostrecent&page={page}&size=1000&all_versions=1&keywords=shareloc.xyz"
+        zenodo_request = f"https://zenodo.org/api/records?sort=newest&page={page}&size=100&all_versions=1&q=keywords:shareloc.xyz"
         r = requests.get(zenodo_request)
         if not r.status_code == 200:
             print(
@@ -19,7 +19,7 @@ def update_from_zenodo():
 
         print(f"Collecting items from zenodo: {zenodo_request}")
 
-        hits = r.json()["hits"]["hits"]
+        hits = r.json()
         if not hits:
             break
 
@@ -27,20 +27,23 @@ def update_from_zenodo():
             new_dois.append(hit["doi"])
             if (
                 hit["doi"] in old_dois
-                or not hit["metadata"]["relations"]["version"][0]["is_last"]
+                or ("relations" in hit["metadata"] and not hit["metadata"]["relations"]["version"][0]["is_last"])
             ):
                 continue
+            file_base_url = hit['links']['files']
             rdf_urls = [
-                file_hit["links"]["self"]
+                file_base_url + '/' + file_hit["filename"] + '/content'
                 for file_hit in hit["files"]
-                if file_hit["key"] == "rdf.yaml"
+                if file_hit["filename"] == "rdf.yaml"
             ]
+            if len(rdf_urls) == 0:
+                continue
             item = {
                 "id": hit["conceptrecid"],
                 "doi": hit["doi"],
                 "rdf_source": sorted(rdf_urls)[0],
                 "name": hit["metadata"]["title"],
-                "owners": hit["owners"],
+                "owners": [hit["owner"]],
             }
             old_items = list(filter(lambda x: x["id"] == item["id"], items))
             if len(old_items) > 0:
