@@ -40,7 +40,7 @@ collection:
     spermatocytes using super-resolution microscopy
   owners:
   - 455690
-  rdf_source: https://zenodo.org/api/files/e6f769da-1505-4134-a159-572eb2c0c9d8/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/7501960/files/rdf.yaml/content
   tags:
   - storm
   - Histones
@@ -117,7 +117,7 @@ collection:
   name: Microtubules stained with Alexa 647 and incubated Nocodazole cell08-cell14
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/0d7b0d10-0503-416f-9a64-6fc553c041a4/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/7234161/files/rdf.yaml/content
   tags:
   - microtubules
   - u2os
@@ -175,7 +175,7 @@ collection:
   name: Microtubules stained with Alexa 647 and incubated Nocodazole cell03-cell07
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/6b311450-d4ef-4e24-ad08-c4cd5c230080/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/7233950/files/rdf.yaml/content
   tags:
   - dstorm
   - u2os
@@ -203,7 +203,7 @@ collection:
   name: vimentin immunolabeled with DNA-PAINT Antibodies
   owners:
   - 427385
-  rdf_source: https://zenodo.org/api/files/75bd6a02-77e0-4e8a-bb19-5f32a99bd9ad/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/7225217/files/rdf.yaml/content
   tags:
   - dna-paint
   - mef
@@ -233,7 +233,7 @@ collection:
     via deep learning'
   owners:
   - 262377
-  rdf_source: https://zenodo.org/api/files/ba73270b-bece-4cd6-bd1b-11d8d04f920d/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/7871960/files/rdf.yaml/content
   tags:
   - storm
   - cos7
@@ -264,7 +264,7 @@ collection:
     20 min
   owners:
   - 219707
-  rdf_source: https://zenodo.org/api/files/9a3fe3b0-a434-4047-85da-2a138a65aabe/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/7231345/files/rdf.yaml/content
   tags:
   - U2OS
   - microtubule
@@ -295,7 +295,7 @@ collection:
   name: Microtubule stained in alexa 647 treated with 1 um of Nocodazole
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/31c845bb-31a9-4ee6-8886-4524bdf428a0/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/6948554/files/rdf.yaml/content
   tags:
   - U2OS
   - microtubule
@@ -328,7 +328,7 @@ collection:
   name: ZOLA-3D microtubules
   owners:
   - 354398
-  rdf_source: https://zenodo.org/api/files/03670762-8fc2-4e39-91f7-f92a74138f96/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/6861446/files/rdf.yaml/content
   tags:
   - microtubules
   - U373 MG cell
@@ -356,7 +356,7 @@ collection:
   name: Zola-3D NUP full nucleus
   owners:
   - 354398
-  rdf_source: https://zenodo.org/api/files/35546133-6092-41e0-9937-cd78f94e57af/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/7233696/files/rdf.yaml/content
   tags:
   - Alexa Fluor 647
   - NUP133
@@ -384,7 +384,7 @@ collection:
   name: Microtubules immuno-labeled with Alexa 647 CSV and raw data Cell035
   owners:
   - 270647
-  rdf_source: https://zenodo.org/api/files/e2a76f01-0d83-4658-9e65-a6a9645d5a84/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5783066/files/rdf.yaml/content
   tags:
   - alpha-tubulin
   - u373
@@ -414,7 +414,7 @@ collection:
   name: Microtubules immuno-labeled with Alexa 647 CSV and raw data_Cell033
   owners:
   - 270647
-  rdf_source: https://zenodo.org/api/files/99da554e-9e3e-46de-807e-9b69932cbaa0/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5779541/files/rdf.yaml/content
   tags:
   - dstorm
   - alpha-tubulin
@@ -444,7 +444,7 @@ collection:
   name: Microtubules immuno-labeled with Alexa 647 CSV and raw data
   owners:
   - 270647
-  rdf_source: https://zenodo.org/api/files/724b03e7-6329-410f-b093-43aac110da1b/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5773453/files/rdf.yaml/content
   tags:
   - dstorm
   - alpha-tubulin
@@ -523,7 +523,7 @@ collection:
   name: 2D actin images
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/43c7b337-2165-49c1-b091-0d7bb91fc071/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5535740/files/rdf.yaml/content
   tags:
   - 2d
   - storm
@@ -578,7 +578,7 @@ collection:
   name: 3D actin
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/c5cd0edf-152f-4f9e-a693-1c3ddeb3a67d/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5534337/files/rdf.yaml/content
   tags:
   - 3d
   - actin
@@ -714,7 +714,7 @@ collection:
   name: 3D microtubules
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/cd238beb-d669-407b-a6b8-f514af64e82e/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5541063/files/rdf.yaml/content
   tags:
   - microtubules
   - 3d
@@ -758,7 +758,7 @@ collection:
   name: Microtubules of U2OS cells
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/9f99f237-8577-49ce-b508-2fbfa92bb289/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/7182242/files/rdf.yaml/content
   tags:
   - microtubules
   - u2os
@@ -818,7 +818,7 @@ collection:
   name: Microtubules of COS7 cells stained with Alexa 532
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/ffe67238-ea83-46a2-8ed5-2d26c7a5f435/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/7182290/files/rdf.yaml/content
   tags:
   - microtubules
   - cos7
@@ -826,106 +826,6 @@ collection:
   - beta-tubulin
   - indirect-immuno-labeling
   - em-ccd
-  - smlm
-  type: dataset
-- authors:
-  - affiliation: Abbelight, Paris, France
-    name: Abbelight
-  conversions:
-    special_1:
-      data.smlm:
-        csv:
-        - data.csv
-        potree:
-        - data.potree.zip
-    special_2:
-      data.smlm:
-        csv:
-        - data.csv
-        potree:
-        - data.potree.zip
-    test_10ms_1:
-      data.smlm:
-        csv:
-        - data.csv
-        potree:
-        - data.potree.zip
-    test_10ms_2:
-      data.smlm:
-        csv:
-        - data.csv
-        potree:
-        - data.potree.zip
-    test_10ms_3:
-      data.smlm:
-        csv:
-        - data.csv
-        potree:
-        - data.potree.zip
-    test_20ms_1:
-      data.smlm:
-        csv:
-        - data.csv
-        potree:
-        - data.potree.zip
-    test_20ms_2:
-      data.smlm:
-        csv:
-        - data.csv
-        potree:
-        - data.potree.zip
-    test_20ms_3:
-      data.smlm:
-        csv:
-        - data.csv
-        potree:
-        - data.potree.zip
-    test_50ms_1:
-      data.smlm:
-        csv:
-        - data.csv
-        potree:
-        - data.potree.zip
-    test_50ms_2:
-      data.smlm:
-        csv:
-        - data.csv
-        potree:
-        - data.potree.zip
-    test_50ms_3:
-      data.smlm:
-        csv:
-        - data.csv
-        potree:
-        - data.potree.zip
-  covers:
-  - ./special_1/screenshot-0_thumbnail.png
-  - ./special_2/screenshot-1_thumbnail.png
-  - ./test_10ms_1/screenshot-2_thumbnail.png
-  - ./test_10ms_2/screenshot-3_thumbnail.png
-  - ./test_10ms_3/screenshot-4_thumbnail.png
-  - ./test_20ms_1/screenshot-5_thumbnail.png
-  - ./test_20ms_2/screenshot-6_thumbnail.png
-  - ./test_20ms_3/screenshot-7_thumbnail.png
-  - ./test_50ms_1/screenshot-8_thumbnail.png
-  - ./test_50ms_2/screenshot-9_thumbnail.png
-  - ./test_50ms_3/screenshot-10_thumbnail.png
-  description: Microtubules immuno-labeled with Alexa 647 in COS7 cells
-  doi: 10.5281/zenodo.5512818
-  id: '5512817'
-  license: CC-BY-4.0
-  links: []
-  name: Microtubules in COS7 cells part 2
-  owners:
-  - 240881
-  rdf_source: https://zenodo.org/api/files/c2debe62-b353-4f1d-aa80-4cf25b0ce469/rdf.yaml
-  tags:
-  - dstorm
-  - cos7
-  - alexa-647
-  - alpha-tubulin
-  - indirect-immuno-labeling
-  - abbelight-safe-reagent
   - smlm
   type: dataset
 - authors:
@@ -1004,7 +904,7 @@ collection:
   name: Microtubules in COS7 cells part 1
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/d1ca1026-ac69-42b2-8291-d836d1e99b33/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5512383/files/rdf.yaml/content
   tags:
   - dstorm
   - cos7
@@ -1069,7 +969,7 @@ collection:
   name: Microtubules immuno-labeled with CF680
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/477b70f6-9c21-4562-b77a-a64512bf8b02/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5512205/files/rdf.yaml/content
   tags:
   - dstorm
   - cf680
@@ -1135,7 +1035,7 @@ collection:
   name: Microtubules of COS7 cells - part 2
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/aa801c86-e874-45a9-9c55-0d65e1c05f90/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5510691/files/rdf.yaml/content
   tags:
   - dstorm
   - cos7
@@ -1193,7 +1093,7 @@ collection:
   name: Microtubules of COS7 cells
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/03e0cf82-d2ef-41e7-86a8-93b96d5117a7/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5510686/files/rdf.yaml/content
   tags:
   - dstorm
   - cos7
@@ -1265,7 +1165,7 @@ collection:
   name: 2D microtubules stained with Alexa647 part 5
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/abd06e76-e611-4c44-9f98-9ac5b1964694/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5534342/files/rdf.yaml/content
   tags:
   - storm
   - microtubules
@@ -1337,7 +1237,7 @@ collection:
   name: 2D microtubules stained with Alexa647 part 4
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/0ea04477-f487-44d5-8207-cb09795570ee/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5534346/files/rdf.yaml/content
   tags:
   - storm
   - microtubules
@@ -1430,7 +1330,7 @@ collection:
   name: 2D microtubules stained with Alexa647 part 3
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/8df36752-666b-4b21-8586-104165c15a94/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5534351/files/rdf.yaml/content
   tags:
   - storm
   - microtubules
@@ -1488,7 +1388,7 @@ collection:
   name: 2D microtubules stained with Alexa647 part 2
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/500afd3b-122a-40d7-a219-a0786a72c776/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5534354/files/rdf.yaml/content
   tags:
   - storm
   - microtubules
@@ -1643,7 +1543,7 @@ collection:
   name: 2D microtubules stained with Alexa647 part 1
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/6fcbc3ec-bc10-448f-867a-0d18e164c20b/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5534358/files/rdf.yaml/content
   tags:
   - storm
   - microtubules
@@ -1674,7 +1574,7 @@ collection:
   name: Vimentin proteins in MEF cells
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/f8cdd7c4-b0a1-41bf-88bc-8f3cdbc2d9ef/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5535841/files/rdf.yaml/content
   tags:
   - dna-paint
   - vimentin
@@ -1737,7 +1637,7 @@ collection:
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 76-80
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/531ec2fc-849e-4a7b-b0b9-bfe8648ca20c/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5508237/files/rdf.yaml/content
   tags:
   - dstorm
   - u373
@@ -1810,7 +1710,7 @@ collection:
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 70-75
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/b49f7508-8cbf-4ea8-af15-73813be1c478/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5508228/files/rdf.yaml/content
   tags:
   - dstorm
   - u373
@@ -1876,7 +1776,7 @@ collection:
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 60-64
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/eb8c7653-5c47-43dc-b16c-26ee4076253d/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5508212/files/rdf.yaml/content
   tags:
   - dstorm
   - u373
@@ -1942,7 +1842,7 @@ collection:
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 65-69
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/26b97ac4-a92f-4e0a-ae93-180d2863bfda/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5508210/files/rdf.yaml/content
   tags:
   - dstorm
   - u373
@@ -2008,7 +1908,7 @@ collection:
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 55-59
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/88b4fe0c-f76b-4431-b39a-b09c599a0d93/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5507976/files/rdf.yaml/content
   tags:
   - dstorm
   - u373
@@ -2074,7 +1974,7 @@ collection:
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 50-54
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/2c0ab82e-cd7c-4907-ad9a-55dc2c42571a/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5507826/files/rdf.yaml/content
   tags:
   - dstorm
   - u373
@@ -2175,7 +2075,7 @@ collection:
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 40-49
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/7263e7c7-0924-4fb4-a44e-57b0014aee01/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5507679/files/rdf.yaml/content
   tags:
   - dstorm
   - u373
@@ -2241,7 +2141,7 @@ collection:
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 35-39
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/2c8e4ebf-da81-4f61-93e9-97a13e22b2c2/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5507605/files/rdf.yaml/content
   tags:
   - dstorm
   - u373
@@ -2281,7 +2181,7 @@ collection:
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 8
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/e1da88ff-1c16-4a78-be1a-0d164749b452/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5507548/files/rdf.yaml/content
   tags:
   - dstorm
   - u373
@@ -2327,7 +2227,7 @@ collection:
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 6-7
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/dbfaf2b5-9d82-4f70-b91c-2817c3a0674b/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5507483/files/rdf.yaml/content
   tags:
   - dstorm
   - u373
@@ -2341,37 +2241,6 @@ collection:
   - gluox
   - pfa+gluta
   - shareloc.xyz
-  - smlm
-  type: dataset
-- authors:
-  - affiliation: "Aix Marseille Universit\xE9, CNRS, INP UMR7051, NeuroCyto, Marseille\
-      \ 13005, France"
-    name: Christophe Leterrier
-  conversions:
-    sample-1:
-      data.smlm:
-        csv:
-        - data.0.csv
-        - data.1.csv
-        potree:
-        - data.potree.zip
-  covers:
-  - ./sample-1/screenshot-0_thumbnail.png
-  - ./sample-1/screenshot-1_thumbnail.png
-  description: 3D two-color SMLM data, they correspond to a COS cell labeled for clathrin
-    (first channel) and microtubules (second channel)
-  doi: 10.5281/zenodo.5507427
-  id: '5507420'
-  license: CC-BY-4.0
-  links: []
-  name: Microtubules and clathrin in a Cos cell
-  owners:
-  - 240881
-  rdf_source: https://zenodo.org/api/files/b488b9b2-c737-4e0c-97de-ba960ab1418e/rdf.yaml
-  tags:
-  - 3d
-  - clathrin
-  - microtubules
   - smlm
   type: dataset
 - authors:
@@ -2424,7 +2293,7 @@ collection:
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 1-5
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/436ece34-aa29-4c8e-bf26-30251eb1b181/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5507520/files/rdf.yaml/content
   tags:
   - dstorm
   - u373
@@ -2497,7 +2366,7 @@ collection:
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 30-34
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/7243c813-83b7-48f8-90cd-cd2abfc2e850/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5507305/files/rdf.yaml/content
   tags:
   - dstorm
   - microtubules
@@ -2563,7 +2432,7 @@ collection:
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 20-24
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/923462df-db4b-4808-9ba0-e3d1a82ac1a7/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5507329/files/rdf.yaml/content
   tags:
   - dstorm
   - u373
@@ -2601,7 +2470,7 @@ collection:
   name: 3D dSTORM with DAISY stained with Alexa-647
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/82af55ef-588f-4817-be3e-71fd6164d839/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5507158/files/rdf.yaml/content
   tags:
   - dstorm
   - daisy
@@ -2632,7 +2501,7 @@ collection:
   name: central canal of Xenopus nuclear pore complex
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/36f0d831-f41b-4b14-92c7-6c502019e52b/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5512732/files/rdf.yaml/content
   tags:
   - dstorm
   - wga
@@ -2667,7 +2536,7 @@ collection:
   name: Actin with PhalloidinAF647 in COS7
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/b411ba65-3eef-4d81-a4a7-f5576f6692ea/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5510661/files/rdf.yaml/content
   tags:
   - dstorm
   - actin
@@ -2675,36 +2544,6 @@ collection:
   - alexa-647
   - cos7
   - smlm
-  type: dataset
-- authors:
-  - affiliation: "University of Wuerzburg, W\xFCrzburg 97074, Germany"
-    name: Teresa Klein
-  conversions:
-    Cos7_cSiR_phalloidin:
-      data.smlm:
-        csv:
-        - data.csv
-        potree:
-        - data.potree.zip
-  covers:
-  - ./Cos7_cSiR_phalloidin/screenshot-0_thumbnail.png
-  - ./Cos7_cSiR_phalloidin/screenshot-1_thumbnail.png
-  description: actin of Cos-7 cell stained with phalloidin Alexa647
-  doi: 10.5281/zenodo.7153139
-  id: '5506623'
-  license: CC-BY-4.0
-  links: []
-  name: Phalloidin with caged silicon rhodamine
-  owners:
-  - 240881
-  rdf_source: https://zenodo.org/api/files/206aa3d1-701f-4480-a305-24c7a56a8918/rdf.yaml
-  tags:
-  - actin
-  - cos7
-  - smlm
-  - dstorm
-  - phalloidin
-  - alexa-647
   type: dataset
 - authors:
   - affiliation: "University of Wuerzburg, W\xFCrzburg 97074, Germany"
@@ -2726,7 +2565,7 @@ collection:
   name: gp210 proteins of Xenopus laevis nuclear pore complex stained with Alexa647
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/256fdef5-4181-4935-beb9-f9c29b169cea/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/7185997/files/rdf.yaml/content
   tags:
   - gp210
   - nuclear-pore-complex
@@ -2755,7 +2594,7 @@ collection:
   name: Xenopus laevis nuclear pore complex stained with WGA-ATTO520
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/b7ea89b8-3204-45fb-b0a1-39c7150030b5/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/7182237/files/rdf.yaml/content
   tags:
   - dstorm
   - nuclear-pore-complex
@@ -2797,7 +2636,7 @@ collection:
   name: gp210 proteins of nuclear pore complex stained with alexa647
   owners:
   - 240881
-  rdf_source: https://zenodo.org/api/files/3644adf9-da12-4211-9127-4fa3ce8ca86b/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/7182227/files/rdf.yaml/content
   tags:
   - gp210
   - nuclear-pore-complex
@@ -2855,7 +2694,7 @@ collection:
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 15-19
   owners:
   - 239097
-  rdf_source: https://zenodo.org/api/files/634ce22b-ba77-4945-9ee7-603bac77bdc6/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5507634/files/rdf.yaml/content
   tags:
   - dstorm
   - u373
@@ -2921,7 +2760,7 @@ collection:
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 25-29
   owners:
   - 239097
-  rdf_source: https://zenodo.org/api/files/50b88010-7a70-44ac-9631-a05ecdfab1fa/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5507053/files/rdf.yaml/content
   tags:
   - dstorm
   - u373
@@ -3015,7 +2854,7 @@ collection:
   name: Mitochondrial protein TOM22 in COS7 cells
   owners:
   - 239097
-  rdf_source: https://zenodo.org/api/files/2780b14e-326e-4f58-baca-297341b56875/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5512636/files/rdf.yaml/content
   tags:
   - mitochondria
   - tom22
@@ -3088,7 +2927,7 @@ collection:
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 8-14
   owners:
   - 239097
-  rdf_source: https://zenodo.org/api/files/fa70fcbd-1f24-417b-a7af-7995e0bbb306/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5507638/files/rdf.yaml/content
   tags:
   - dstorm
   - u373
@@ -3156,7 +2995,7 @@ collection:
   name: NIH3T3 labelled microtubules AF647 060515
   owners:
   - 246553
-  rdf_source: https://zenodo.org/api/files/d88b3766-35f9-4704-9047-1029a1df76ef/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5215421/files/rdf.yaml/content
   tags:
   - storm
   - thunderstorm
@@ -3204,7 +3043,7 @@ collection:
   name: MDCK alexa647 labelled microtubules 300720
   owners:
   - 246553
-  rdf_source: https://zenodo.org/api/files/c1d59023-dcc5-44bd-b88e-808edcb9b901/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5215324/files/rdf.yaml/content
   tags:
   - storm
   - thunderstorm
@@ -3311,7 +3150,7 @@ collection:
   name: REF52 alexa647 labelled microtubules 290720 300720
   owners:
   - 246553
-  rdf_source: https://zenodo.org/api/files/7e1467d9-aefb-4d58-b1cd-ff937c191572/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5215248/files/rdf.yaml/content
   tags:
   - storm
   - thunderstorm
@@ -3366,7 +3205,7 @@ collection:
   name: REF52 microtubules with AF647 200729 lvl11 sCMOS
   owners:
   - 246553
-  rdf_source: https://zenodo.org/api/files/6d8f3830-8c2e-418c-8d1e-68a68985e251/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5214573/files/rdf.yaml/content
   tags:
   - storm
   - alpha-tubulin
@@ -3433,7 +3272,7 @@ collection:
   name: Cos7 cells labelled microtubules 280721 part 3
   owners:
   - 246553
-  rdf_source: https://zenodo.org/api/files/f56d0799-f34d-42c1-ae4a-221ececefe97/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5205355/files/rdf.yaml/content
   tags:
   - storm
   - thunderstorm
@@ -3521,7 +3360,7 @@ collection:
   name: Cos7 labelled microtubules with alex fluor 647 - 280721 part2
   owners:
   - 246553
-  rdf_source: https://zenodo.org/api/files/0c803cec-a8d7-449c-8155-80e191d564b6/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5184678/files/rdf.yaml/content
   tags:
   - storm
   - thunderstorm
@@ -3609,7 +3448,7 @@ collection:
   name: Cos7 labelled microtubules with alex fluor 647 - 280721 part1
   owners:
   - 246553
-  rdf_source: https://zenodo.org/api/files/71213102-ef60-477d-9fba-6df66de75abc/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5184659/files/rdf.yaml/content
   tags:
   - storm
   - thunderstorm
@@ -3687,7 +3526,7 @@ collection:
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 1-7
   owners:
   - 239097
-  rdf_source: https://zenodo.org/api/files/860cd212-5944-47ed-ac07-4a55ab4bc146/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5507641/files/rdf.yaml/content
   tags:
   - dstorm
   - u373
@@ -3746,7 +3585,7 @@ collection:
   name: Cos7 cells labelled microtubules 270721 Part 2
   owners:
   - 246553
-  rdf_source: https://zenodo.org/api/files/792cf14f-5f3b-4301-afec-dc42c9c076c9/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5174498/files/rdf.yaml/content
   tags:
   - storm
   - thunderstorm
@@ -3814,7 +3653,7 @@ collection:
   name: Cos7 cells labelled microtubules 270721 Part 1
   owners:
   - 246553
-  rdf_source: https://zenodo.org/api/files/7cf5eda7-39f2-49d7-8a2c-0d626cd829bb/rdf.yaml
+  rdf_source: https://zenodo.org/api/records/5174118/files/rdf.yaml/content
   tags:
   - storm
   - thunderstorm
