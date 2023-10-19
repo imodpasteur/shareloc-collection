@@ -106,6 +106,12 @@ collection:
   owners:
   - 240881
   rdf_source: https://zenodo.org/api/records/7182290/files/rdf.yaml/content
+- doi: 10.5281/zenodo.5512818
+  id: '5512817'
+  name: Microtubules in COS7 cells part 2
+  owners:
+  - 240881
+  rdf_source: https://zenodo.org/api/records/5512818/files/rdf.yaml/content
 - doi: 10.5281/zenodo.5512383
   id: '5512382'
   name: Microtubules in COS7 cells part 1
@@ -226,6 +232,12 @@ collection:
   owners:
   - 240881
   rdf_source: https://zenodo.org/api/records/5507483/files/rdf.yaml/content
+- doi: 10.5281/zenodo.5507427
+  id: '5507420'
+  name: Microtubules and clathrin in a Cos cell
+  owners:
+  - 240881
+  rdf_source: https://zenodo.org/api/records/5507427/files/rdf.yaml/content
 - doi: 10.5281/zenodo.5507520
   id: '5507349'
   name: Microtubules immuno-labeled with Alexa 647 with widefield images 1-5
@@ -262,6 +274,12 @@ collection:
   owners:
   - 240881
   rdf_source: https://zenodo.org/api/records/5510661/files/rdf.yaml/content
+- doi: 10.5281/zenodo.7153139
+  id: '5506623'
+  name: Phalloidin with caged silicon rhodamine
+  owners:
+  - 240881
+  rdf_source: https://zenodo.org/api/records/7153139/files/rdf.yaml/content
 - doi: 10.5281/zenodo.7185997
   id: '5504141'
   name: gp210 proteins of Xenopus laevis nuclear pore complex stained with Alexa647
