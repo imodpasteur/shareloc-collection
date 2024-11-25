@@ -1,5 +1,9 @@
 requests
+httpx
+hypha-rpc
+python-dotenv
 pyyaml
 tqdm
-shareloc-utils[potree]
 boto3
+shareloc-utils[potree]
+pyyaml
