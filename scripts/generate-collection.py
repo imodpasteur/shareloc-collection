@@ -14,6 +14,9 @@ from shareloc_utils.batch_download import (
 import boto3
 import shutil
 import random
+# use dotenv
+import dotenv
+dotenv.load_dotenv()
 
 S3_ENDPOINT = os.environ.get("S3_ENDPOINT")
 S3_BUCKET = "public"
