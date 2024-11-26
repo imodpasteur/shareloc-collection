@@ -199,6 +199,7 @@ async def migrate_collection(skip_migrated):
             "S3_ACCESS_KEY_ID": os.environ.get("S3_ACCESS_KEY_ID"),
             "S3_SECRET_ACCESS_KEY": os.environ.get("S3_SECRET_ACCESS_KEY"),
             "S3_REGION_NAME": os.environ.get("S3_REGION_NAME"),
+            "S3_PREFIX": os.environ.get("S3_PREFIX"),
             "S3_BUCKET": os.environ.get("S3_BUCKET"),
         },
         publish_to="sandbox_zenodo",
